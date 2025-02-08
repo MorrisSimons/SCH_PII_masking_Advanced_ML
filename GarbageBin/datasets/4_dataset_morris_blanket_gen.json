@@ -1,0 +1,2741 @@
+[
+    {
+       "id":291,
+       "text":"Hej, jag heter Johan Lundqvist och vill flytta min tjänstepension till Nordnet. Mitt nuvarande försäkringsnummer är 123456-7890, och jag behöver hjälp med att slutföra processen.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Lundqvist"
+          },
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"123456-7890"
+          }
+       ]
+    },
+    {
+       "id":292,
+       "text":"Jag är anställd hos TechSecure AB och vill anmäla en löneväxling till tjänstepension. Min arbetsgivare har informerat mig om att jag behöver skicka in en begäran.",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"TechSecure AB"
+          }
+       ]
+    },
+    {
+       "id":293,
+       "text":"Vi på Alpha Invest AB vill registrera en ny försäkringsförmedlare i vårt system. Förmedlarens namn är Sofia Karlsson, och hennes personnummer är 750101-2345. Kan ni guida oss genom processen?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Alpha Invest AB"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Sofia Karlsson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"750101-2345"
+          }
+       ]
+    },
+    {
+       "id":294,
+       "text":"Jag har ändrat mitt bankkonto för autogirobetalningar och behöver uppdatera det i era system. Mitt nya bankkontonummer är 9876-5432-1098, och jag vill försäkra mig om att dragningarna sker korrekt.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"9876-5432-1098"
+          }
+       ]
+    },
+    {
+       "id":295,
+       "text":"Vi vill göra en förändring i vårt månadssparande i fonder och lägga till en ny fond. Vårt försäkringsnummer är 564738-2910, och vi önskar lägga till fonden Nordnet Hållbar Pension.",
+       "to_mask":[
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"564738-2910"
+          }
+       ]
+    },
+    {
+       "id":296,
+       "text":"Jag vill uppdatera min adress i ert system. Min nya adress är Storgatan 12, 114 56 Stockholm. Jag vill säkerställa att framtida brev skickas till rätt adress.",
+       "to_mask":[
+          {
+             "label":"[ADRESS]",
+             "value":"Storgatan 12, 114 56 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":297,
+       "text":"Vi behöver uppdatera vårt organisationsnummer i ert system. Vårt nya organisationsnummer är 556789-1234, och vi vill bekräfta att ändringen går igenom korrekt.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-1234"
+          }
+       ]
+    },
+    {
+       "id":298,
+       "text":"Jag behöver verifiera mitt personnummer hos er för en ny försäkring. Mitt personnummer är 840512-6789, och jag vill säkerställa att det är korrekt registrerat.",
+       "to_mask":[
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"840512-6789"
+          }
+       ]
+    },
+    {
+       "id":299,
+       "text":"Vi har en ny anställd, Lisa Berg, som ska anslutas till företagets pensionsplan. Hennes personnummer är 920310-4567. Vilka steg behöver vi ta?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lisa Berg"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"920310-4567"
+          }
+       ]
+    },
+    {
+       "id":300,
+       "text":"Jag vill byta mottagare av mina pensionsutbetalningar och behöver uppdatera mitt clearing- och bankgironummer. Mitt clearingnummer är 8327, och mitt bankgironummer är 5473-8921.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"8327"
+          },
+          {
+             "label":"[BANKGIRONUMMER]",
+             "value":"5473-8921"
+          }
+       ]
+    },
+    {
+       "id":301,
+       "text":"Hej, jag har nyligen gift mig och bytt efternamn. Mitt nya namn är Emilia W. Ekström. Mitt tidigare efternamn var Westerlund. Jag behöver uppdatera mitt personnummer 830721-4521 och min arbetsplatsregistrering.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Emilia W. Ekström"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Westerlund"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"830721-4521"
+          }
+       ]
+    },
+    {
+       "id":302,
+       "text":"Jag har fått ett brev där mitt födelseår är felaktigt registrerat. Det står att jag är född 1991, men mitt korrekta födelsedatum är 27 mars 1989. Kan ni korrigera detta i era system?",
+       "to_mask":[
+          {
+             "label":"[FÖDELSEDAG]",
+             "value":"27 mars 1989"
+          }
+       ]
+    },
+    {
+       "id":303,
+       "text":"Min IP-adress verkar vara blockerad från att logga in på pensionsportalen. Jag använder nätverket på jobbet, och min aktuella IP är 192.182.23.14. Kan ni undersöka detta?",
+       "to_mask":[
+          {
+             "label":"[IP-ADRESS]",
+             "value":"192.182.23.14"
+          }
+       ]
+    },
+    {
+       "id":304,
+       "text":"Jag har nyligen flyttat till en ny bostad och vill säkerställa att alla dokument skickas till rätt adress. Min nya adress är Skogsbrynet 45A, 193 56 Bergvik.",
+       "to_mask":[
+          {
+             "label":"[ADRESS]",
+             "value":"Skogsbrynet 45A, 193 56 Bergvik"
+          }
+       ]
+    },
+    {
+       "id":305,
+       "text":"Vi på Sigma Solutions AB har nyligen bytt organisationsnummer. Det tidigare var 556872-4411, och det nya är 559012-9876. Vänligen uppdatera detta i era register.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556872-4411"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"559012-9876"
+          }
+       ]
+    },
+    {
+       "id":306,
+       "text":"Jag är mitt i en flyttprocess och behöver uppdatera min bostadshistorik i era system. Min tidigare adress var Hamngatan 7, 112 34 Stockholm, och min nya är Hjortronvägen 8B, 431 22 Mölndal.",
+       "to_mask":[
+          {
+             "label":"[ADRESSHISTORIA]",
+             "value":"Hamngatan 7, 112 34 Stockholm"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Hjortronvägen 8B, 431 22 Mölndal"
+          }
+       ]
+    },
+    {
+       "id":307,
+       "text":"Min arbetsgivare har nyligen ändrat vår löneutbetalningsstruktur. Jag behöver uppdatera mitt clearingnummer 8123 och mitt bankgironummer 9874-5678.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"8123"
+          },
+          {
+             "label":"[BANKGIRONUMMER]",
+             "value":"9874-5678"
+          }
+       ]
+    },
+    {
+       "id":308,
+       "text":"Jag vill lägga till en medförmånstagare för min pension. Min make, William Falk, har personnummer 750812-9987 och ska vara registrerad på mitt konto.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"William Falk"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"750812-9987"
+          }
+       ]
+    },
+    {
+       "id":309,
+       "text":"Vi behöver registrera en ny anställd i vårt företags pensionsavtal. Namnet är Fatima Al-Saadi, och hennes personnummer är 900523-3421. Vänligen lägg till henne i systemet.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Fatima Al-Saadi"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"900523-3421"
+          }
+       ]
+    },
+    {
+       "id":310,
+       "text":"Min arbetsgivare har ändrat mitt jobbkontrakt, och jag vill säkerställa att min titel är uppdaterad i era system. Min nya titel är Senior Data Analyst.",
+       "to_mask":[
+          {
+             "label":"[TITEL]",
+             "value":"Senior Data Analyst"
+          }
+       ]
+    },
+    {
+       "id":311,
+       "text":"Hej, jag vill uppdatera min oåterkalleliga förmånstagare. Min nuvarande förmånstagare är min tidigare make Johan Lindholm, personnummer 720415-7890. Jag vill istället registrera min dotter, Emma Lindholm, personnummer 011223-1234.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Lindholm"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"720415-7890"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Emma Lindholm"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"011223-1234"
+          }
+       ]
+    },
+    {
+       "id":312,
+       "text":"Jag vill ändra förmånstagare i min försäkring. Just nu står min bror Henrik Gustavsson, personnummer 850712-4567, som förmånstagare, men jag vill ändra till min sambo Louise Ström, personnummer 920523-7890.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Henrik Gustavsson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"850712-4567"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Louise Ström"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"920523-7890"
+          }
+       ]
+    },
+    {
+       "id":313,
+       "text":"Min tidigare förmånstagare, min far Anders Viklund (personnummer 650101-5678), har gått bort. Jag vill därför registrera min make Sofia Viklund, personnummer 790324-3456, som ny förmånstagare.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anders Viklund"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"650101-5678"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Sofia Viklund"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"790324-3456"
+          }
+       ]
+    },
+    {
+       "id":314,
+       "text":"Hej, jag vill lägga till min make som medförmånstagare i min pensionsförsäkring. Hans namn är Carl Olofsson och hans personnummer är 810621-9876.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Carl Olofsson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"810621-9876"
+          }
+       ]
+    },
+    {
+       "id":315,
+       "text":"Kan ni bekräfta att min pensionsförmån fortfarande är registrerad på min make Anna Bergström, personnummer 750904-1234?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna Bergström"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"750904-1234"
+          }
+       ]
+    },
+    {
+       "id":316,
+       "text":"Jag vill uppdatera min försäkring så att min son, Johan Sjögren (personnummer 020510-5678), blir förmånstagare istället för min tidigare make.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Sjögren"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"020510-5678"
+          }
+       ]
+    },
+    {
+       "id":317,
+       "text":"Jag har upptäckt att min tidigare sambo står kvar som förmånstagare i min pensionsplan. Kan ni ändra det så att min son Emil Larsson, personnummer 051201-1234, är förmånstagare?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Emil Larsson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"051201-1234"
+          }
+       ]
+    },
+    {
+       "id":318,
+       "text":"Vi har nyligen startat en ny pensionsförsäkring på vår arbetsplats och jag vill registrera mina barn som förmånstagare. Deras namn är Alma och William Svensson, personnummer 081215-5678 och 110408-7890.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Alma Svensson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"081215-5678"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"William Svensson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"110408-7890"
+          }
+       ]
+    },
+    {
+       "id":319,
+       "text":"Jag vill bekräfta att min livförsäkring är kopplad till min make, Erik Blomqvist, personnummer 710318-4567, och att inga andra ändringar har skett i systemet.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Blomqvist"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"710318-4567"
+          }
+       ]
+    },
+    {
+       "id":320,
+       "text":"Min mor har nyligen avlidit, och jag är förmånstagare för hennes pensionsutbetalningar. Hennes namn var Ingrid Ståhl, personnummer 600312-2345. Hur går jag tillväga för att få utbetalningarna?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Ingrid Ståhl"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"600312-2345"
+          }
+       ]
+    },
+    {
+       "id":321,
+       "text":"Hej, jag vill kontrollera statusen på min pensionsförsäkring med försäkringsnummer 456789-1234. Kan ni bekräfta att den fortfarande är aktiv?",
+       "to_mask":[
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"456789-1234"
+          }
+       ]
+    },
+    {
+       "id":322,
+       "text":"Jag behöver uppdatera förmånstagaren på min försäkring. Försäkringsnumret är 874512-6789, och jag vill registrera min dotter som mottagare.",
+       "to_mask":[
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"874512-6789"
+          }
+       ]
+    },
+    {
+       "id":323,
+       "text":"Vi har en företagsförsäkring och behöver byta betalningskonto. Försäkringsnumret är 998877-5544. Kan ni uppdatera detta för oss?",
+       "to_mask":[
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"998877-5544"
+          }
+       ]
+    },
+    {
+       "id":324,
+       "text":"Hej, jag är registrerad som Client Manager och behöver uppdatera min behörighet i systemet. Mitt namn är Henrik Wallin, och mitt användar-ID är CM-345678. Kan ni bekräfta att ändringen är genomförd?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Henrik Wallin"
+          },
+          {
+             "label":"[MEDARBETARID]",
+             "value":"CM-345678"
+          }
+       ]
+    },
+    {
+       "id":325,
+       "text":"Jag har en ny anställd på vårt kontor som behöver läggas till som Client Manager-användare. Hennes namn är Sofia Berg och hennes e-post är sofia.berg@example.com.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Sofia Berg"
+          },
+          {
+             "label":"[E-POST]",
+             "value":"sofia.berg@example.com"
+          }
+       ]
+    },
+    {
+       "id":326,
+       "text":"Vi har uppdaterat vårt organisationsnummer och behöver att alla Client Manager-användare i vårt företag uppdateras i ert system. Vårt nya organisationsnummer är 556789-1123.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-1123"
+          }
+       ]
+    },
+    {
+       "id":327,
+       "text":"Hej, jag har nyligen ansökt om att bli försäkringsförmedlare för Nordnet, men har ännu inte fått bekräftelse. Mitt namn är Johan Eriksson och min ansökan är kopplad till företaget Finance Group AB med organisationsnummer 556123-4567. Kan ni ge en statusuppdatering?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Eriksson"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Finance Group AB"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556123-4567"
+          }
+       ]
+    },
+    {
+       "id":328,
+       "text":"Jag behöver uppdatera min registrering som försäkringsförmedlare. Min nuvarande arbetsplats är TechInsurance AB (organisationsnummer 556987-6543), men jag har bytt till Future Wealth Ltd. Kan ni hjälpa mig att genomföra ändringen?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"TechInsurance AB"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556987-6543"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Future Wealth Ltd"
+          }
+       ]
+    },
+    {
+       "id":329,
+       "text":"Vi har en ny anställd förmedlare, Lisa Bergström, som behöver registreras i systemet. Hennes personnummer är 850101-2345 och hennes e-post är lisa.bergstrom@example.com. Hon kommer att arbeta vid vårt kontor i Stockholm.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lisa Bergström"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"850101-2345"
+          },
+          {
+             "label":"[E-POST]",
+             "value":"lisa.bergstrom@example.com"
+          },
+          {
+             "label":"[STAD]",
+             "value":"Stockholm"
+          }
+       ]
+    },
+    {
+       "id":330,
+       "text":"Jag vill avregistrera mig som försäkringsförmedlare på grund av att jag bytt bransch. Mitt namn är Daniel Holgersson och jag var tidigare registrerad under kontorskod 9876 för bolaget Pension Solutions AB.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Daniel Holgersson"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Pension Solutions AB"
+          },
+          {
+             "label":"[MEDARBETARID]",
+             "value":"9876"
+          }
+       ]
+    },
+    {
+       "id":331,
+       "text":"Jag har fått en ny faktureringsadress och behöver uppdatera den i ert system. Min nuvarande adress är Box 4567, 114 56 Stockholm, och jag behöver ändra den till Storgatan 12, 111 22 Stockholm.",
+       "to_mask":[
+          {
+             "label":"[ADRESS]",
+             "value":"Box 4567, 114 56 Stockholm"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Storgatan 12, 111 22 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":332,
+       "text":"Jag har tappat bort mitt inlogg till Client Manager och behöver återställa det. Min e-postadress är admin@finadvice.se och mitt kontor är registrerat under organisationsnummer 559234-7654.",
+       "to_mask":[
+          {
+             "label":"[E-POST]",
+             "value":"admin@finadvice.se"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"559234-7654"
+          }
+       ]
+    },
+    {
+       "id":333,
+       "text":"Vi har bytt kontaktperson för ekonomi- och provisionsfrågor. Den nya kontaktpersonen är Sara Blom, och hennes telefonnummer är 070-123 45 67. Kan ni uppdatera detta i era system?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Sara Blom"
+          },
+          {
+             "label":"[TELEFONNUMMER]",
+             "value":"070-123 45 67"
+          }
+       ]
+    },
+    {
+       "id":334,
+       "text":"Jag behöver få bekräftelse på att mitt avtal som försäkringsförmedlare har godkänts. Min ansökan skickades den 5 april, och jag har ännu inte fått något svar.",
+       "to_mask":[
+          {
+             "label":"[FÖDELSEDAG]",
+             "value":"5 april"
+          }
+       ]
+    },
+    {
+       "id":335,
+       "text":"Jag är registrerad försäkringsförmedlare och vill byta till en annan kontorskod. Min nuvarande kod är 4321, men jag behöver flyttas till kontorskod 9876.",
+       "to_mask":[
+          {
+             "label":"[MEDARBETARID]",
+             "value":"4321"
+          },
+          {
+             "label":"[MEDARBETARID]",
+             "value":"9876"
+          }
+       ]
+    },
+    {
+       "id":336,
+       "text":"Jag vill ha en kopia av min ansökan om registrering som försäkringsförmedlare. Jag skickade in den i mars och vill säkerställa att all information stämmer.",
+       "to_mask":[
+          {
+             "label":"[FÖDELSEDAG]",
+             "value":"mars"
+          }
+       ]
+    },
+    {
+       "id":337,
+       "text":"Hej, jag vill bekräfta att min fullmakt för försäkringsdepå fortfarande är aktiv. Mitt försäkringsnummer är 123456-7890, och mitt depåkontonummer är 987654-321. Kan ni verifiera att fullmakten är giltig?",
+       "to_mask":[
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"123456-7890"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"987654-321"
+          }
+       ]
+    },
+    {
+       "id":338,
+       "text":"Jag vill uppdatera ombudet på min fullmakt. Det nuvarande ombudet är Erik Blom, personnummer 750101-2345. Jag vill ersätta honom med min nya förvaltare, Anna Lundgren, personnummer 800512-6789.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Blom"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"750101-2345"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Anna Lundgren"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"800512-6789"
+          }
+       ]
+    },
+    {
+       "id":339,
+       "text":"Jag har flyttat och behöver uppdatera min adress i fullmakten. Min gamla adress var Rådhusgatan 12, 111 21 Stockholm, och min nya adress är Storgatan 45, 118 56 Stockholm.",
+       "to_mask":[
+          {
+             "label":"[ADRESSHISTORIA]",
+             "value":"Rådhusgatan 12, 111 21 Stockholm"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Storgatan 45, 118 56 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":340,
+       "text":"Jag vill återkalla min fullmakt som ger min förvaltare tillgång till mina depåer. Förvaltaren är Karl Nilsson, personnummer 690320-4567. Hur går jag tillväga?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Karl Nilsson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"690320-4567"
+          }
+       ]
+    },
+    {
+       "id":341,
+       "text":"Vi har upptäckt att ett felaktigt organisationsnummer är registrerat på vår fullmakt. Det nuvarande numret är 556789-1123, men det korrekta är 556987-6543. Kan ni uppdatera detta?",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-1123"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556987-6543"
+          }
+       ]
+    },
+    {
+       "id":342,
+       "text":"Mitt företag har nyligen bytt adress, och jag behöver uppdatera det i vår fullmakt. Den gamla adressen var Box 1234, 104 50 Stockholm, och den nya är Vasagatan 10, 111 20 Stockholm.",
+       "to_mask":[
+          {
+             "label":"[ADRESSHISTORIA]",
+             "value":"Box 1234, 104 50 Stockholm"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Vasagatan 10, 111 20 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":343,
+       "text":"Jag har bytt telefonnummer och vill säkerställa att rätt nummer är registrerat för min fullmakt. Mitt gamla nummer var 070-123 45 67, och mitt nya är 073-987 65 43.",
+       "to_mask":[
+          {
+             "label":"[TELEFONNUMMER]",
+             "value":"070-123 45 67"
+          },
+          {
+             "label":"[TELEFONNUMMER]",
+             "value":"073-987 65 43"
+          }
+       ]
+    },
+    {
+       "id":344,
+       "text":"Jag har nyligen blivit svensk medborgare och vill uppdatera mitt medborgarskap i fullmakten. Tidigare var jag registrerad som finsk medborgare.",
+       "to_mask":[
+          {
+             "label":"[NATIONALITET]",
+             "value":"finsk"
+          },
+          {
+             "label":"[NATIONALITET]",
+             "value":"svensk"
+          }
+       ]
+    },
+    {
+       "id":345,
+       "text":"Jag vill ha en kopia av min signerade fullmakt för försäkringsdepå. Fullmaktsnumret är 789654-3210. Kan ni skicka detta till min registrerade e-postadress?",
+       "to_mask":[
+          {
+             "label":"[FÖRSÄKRINGSNUMMER]",
+             "value":"789654-3210"
+          }
+       ]
+    },
+    {
+       "id":346,
+       "text":"Jag ärver en försäkring där min far var fullmaktsgivare. Hans namn var Olof Eriksson, personnummer 550814-6789. Hur registrerar jag mig som ny fullmaktsgivare?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Olof Eriksson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"550814-6789"
+          }
+       ]
+    },
+    {
+       "id":347,
+       "text":"Hej, jag har ansökt om privatpension och behöver bekräfta att mitt utländska skatteregistreringsnummer (TIN) är korrekt registrerat. Mitt TIN är 123-45-6789, och jag har skatterättslig hemvist i Tyskland.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"123-45-6789"
+          },
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Tyskland"
+          }
+       ]
+    },
+    {
+       "id":348,
+       "text":"Jag har nyligen bytt medborgarskap från Norge till Sverige och behöver uppdatera mitt TIN i min pensionsförsäkring. Mitt gamla TIN var 874521-9876 och mitt nya svenska personnummer är 750512-4321.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"874521-9876"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"750512-4321"
+          },
+          {
+             "label":"[NATIONALITET]",
+             "value":"Norsk"
+          },
+          {
+             "label":"[NATIONALITET]",
+             "value":"Svensk"
+          }
+       ]
+    },
+    {
+       "id":349,
+       "text":"Jag är amerikansk medborgare och behöver registrera mitt amerikanska skatteregistreringsnummer (US TIN) för min privatpensionsförsäkring. Mitt US TIN är 567-89-0123.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"567-89-0123"
+          }
+       ]
+    },
+    {
+       "id":350,
+       "text":"Jag har en pensionsförsäkring och behöver bekräfta att min utbetalningstid är korrekt inställd. Min försäkring ska börja betalas ut vid 60 års ålder och pågå i 15 år.",
+       "to_mask":[
+          {
+             "label":"[ÅLDER]",
+             "value":"60"
+          },
+          {
+             "label":"[ÅLDER]",
+             "value":"15"
+          }
+       ]
+    },
+    {
+       "id":351,
+       "text":"Jag är skatteskyldig i både Sverige och Frankrike och vill säkerställa att detta är korrekt registrerat i min pension. Mitt franska TIN är 998877-6655.",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Frankrike"
+          },
+          {
+             "label":"[TIN]",
+             "value":"998877-6655"
+          }
+       ]
+    },
+    {
+       "id":352,
+       "text":"Mitt födelseland är Finland, men jag är nu bosatt i Sverige. Jag behöver uppdatera min skatterättsliga hemvist i er pensionsförsäkring.",
+       "to_mask":[
+          {
+             "label":"[FÖDELSELAND]",
+             "value":"Finland"
+          },
+          {
+             "label":"[NATIONALITET]",
+             "value":"Svensk"
+          }
+       ]
+    },
+    {
+       "id":353,
+       "text":"Jag behöver ändra min initiala placering i privatpensionen. Just nu är jag registrerad på Nordnet Pension (ISIN SE0002756981), men jag vill byta till en annan fond.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"SE0002756981"
+          }
+       ]
+    },
+    {
+       "id":354,
+       "text":"Jag är svensk medborgare men har skatterättslig hemvist i Schweiz. Mitt schweiziska skatteregistreringsnummer (TIN) är 223344-5566. Kan ni verifiera att det är registrerat korrekt?",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"223344-5566"
+          },
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Schweiz"
+          }
+       ]
+    },
+    {
+       "id":355,
+       "text":"Jag är pensionerad och vill ändra min utbetalningsålder. Just nu är den satt till 65 år, men jag vill starta utbetalningen vid 62 års ålder istället.",
+       "to_mask":[
+          {
+             "label":"[ÅLDER]",
+             "value":"65"
+          },
+          {
+             "label":"[ÅLDER]",
+             "value":"62"
+          }
+       ]
+    },
+    {
+       "id":356,
+       "text":"Jag har nyligen upptäckt att jag är registrerad som politiskt utsatt person (PEP) på grund av mitt tidigare arbete i en statlig myndighet. Jag har inte längre denna position och vill uppdatera min status.",
+       "to_mask":[
+          {
+             "label":"[TITEL]",
+             "value":"statlig myndighet"
+          }
+       ]
+    },
+    {
+       "id":357,
+       "text":"Jag har nyligen bytt efternamn och behöver uppdatera min pensionsförsäkring. Mitt tidigare namn var Mohammed Saif ali khangash, och mitt nya namn är Mohammed Ali Khan.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Mohammed Saif ali khangash"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Mohammed Ali Khan"
+          }
+       ]
+    },
+    {
+       "id":358,
+       "text":"Jag vill flytta mitt individuella pensionssparande (IPS) från ett annat institut till Nordnet. Mitt nuvarande IPS-depånummer är 123456-789. Kan ni hjälpa mig med processen?",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"123456-789"
+          }
+       ]
+    },
+    {
+       "id":359,
+       "text":"Jag har upptäckt att min IPS-depå är kopplad till felaktiga personuppgifter. Mitt namn är felstavat och mitt registrerade personnummer är 740512-4567. Hur kan jag korrigera detta?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Felstavat namn"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"740512-4567"
+          }
+       ]
+    },
+    {
+       "id":360,
+       "text":"Jag vill ändra min skatterättsliga hemvist i min IPS-depå. Just nu är den registrerad i Sverige, men jag har flyttat till Tyskland och har ett tyskt skatteregistreringsnummer (TIN) 987654-321.",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Tyskland"
+          },
+          {
+             "label":"[TIN]",
+             "value":"987654-321"
+          }
+       ]
+    },
+    {
+       "id":361,
+       "text":"Jag vill lägga till en ny förmånstagare för min IPS. Min make, Lisa Karlsson, personnummer 810412-1234, ska vara registrerad som primär förmånstagare.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lisa Karlsson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"810412-1234"
+          }
+       ]
+    },
+    {
+       "id":362,
+       "text":"Jag har problem med att logga in på min IPS-depå och behöver återställa mina inloggningsuppgifter. Min registrerade e-postadress är jonas.pension@example.com.",
+       "to_mask":[
+          {
+             "label":"[E-POST]",
+             "value":"jonas.pension@example.com"
+          }
+       ]
+    },
+    {
+       "id":363,
+       "text":"Jag vill justera min pensionsutbetalningstid. För närvarande är den inställd på 10 år, men jag vill förlänga den till 15 år. Hur går jag tillväga?",
+       "to_mask":[
+          {
+             "label":"[ÅLDER]",
+             "value":"10"
+          },
+          {
+             "label":"[ÅLDER]",
+             "value":"15"
+          }
+       ]
+    },
+    {
+       "id":364,
+       "text":"Jag har nyligen blivit svensk medborgare och behöver uppdatera mitt medborgarskap i min IPS-depå. Mitt tidigare medborgarskap var norskt.",
+       "to_mask":[
+          {
+             "label":"[NATIONALITET]",
+             "value":"Norsk"
+          },
+          {
+             "label":"[NATIONALITET]",
+             "value":"Svensk"
+          }
+       ]
+    },
+    {
+       "id":365,
+       "text":"Jag har fått information om att mitt IPS-konto inte längre är aktivt. Mitt IPS-depånummer är 567890-123. Kan ni bekräfta statusen?",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"567890-123"
+          }
+       ]
+    },
+    {
+       "id":366,
+       "text":"Jag vill byta mitt pensionssparande från fondplacering till en fast ränta. Hur kan jag genomföra detta i min IPS-depå?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":367,
+       "text":"Hej, jag har nyligen öppnat en IPS-depå men har inte fått mitt IPS-depånummer ännu. Kan ni bekräfta numret för min depå så att jag kan börja spara?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":368,
+       "text":"Hej, jag behöver verifiera att mitt företags Legal Entity Identifier (LEI) fortfarande är giltigt. Vårt nuvarande LEI är 5493001KJTIIGC8Y1R12. Kan ni bekräfta giltighetstiden?",
+       "to_mask":[
+          {
+             "label":"[LEI]",
+             "value":"5493001KJTIIGC8Y1R12"
+          }
+       ]
+    },
+    {
+       "id":369,
+       "text":"Vi har nyligen fått ett nytt LEI och behöver uppdatera detta i vår fullmakt. Vårt gamla LEI var 529900T8BM49AURSDO75, och vårt nya är 9845008Z5F9EJ2V4U136.",
+       "to_mask":[
+          {
+             "label":"[LEI]",
+             "value":"529900T8BM49AURSDO75"
+          },
+          {
+             "label":"[LEI]",
+             "value":"9845008Z5F9EJ2V4U136"
+          }
+       ]
+    },
+    {
+       "id":370,
+       "text":"Jag vill bekräfta att fullmakten för min förvaltare fortfarande är aktiv. Fullmaktsgivarens namn är Erik Lundqvist, och vårt depåkontonummer är 678912-345.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Lundqvist"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"678912-345"
+          }
+       ]
+    },
+    {
+       "id":371,
+       "text":"Vårt företag har nyligen bytt juridisk enhet, och vi behöver uppdatera det registrerade LEI-numret i vår fullmakt. Det nya LEI-numret är 2138004KJTIIGC9X1P89.",
+       "to_mask":[
+          {
+             "label":"[LEI]",
+             "value":"2138004KJTIIGC9X1P89"
+          }
+       ]
+    },
+    {
+       "id":372,
+       "text":"Vi vill lägga till en ny förvaltare på vår depå. Den nya förvaltarens namn är Johan Ekström, och hans organisationsnummer är 556872-3456. Behöver vi uppdatera något mer?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Ekström"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556872-3456"
+          }
+       ]
+    },
+    {
+       "id":373,
+       "text":"Min fullmakt har nyligen löpt ut och jag behöver ansöka om en ny. Mitt tidigare LEI var 213800QJNMI9C9Z1T876. Kan ni hjälpa mig med processen?",
+       "to_mask":[
+          {
+             "label":"[LEI]",
+             "value":"213800QJNMI9C9Z1T876"
+          }
+       ]
+    },
+    {
+       "id":374,
+       "text":"Jag har fått information om att min fullmakt har återkallats, men jag har inte gjort någon sådan begäran. Mitt depånummer är 543219-876. Kan ni kontrollera vad som hänt?",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"543219-876"
+          }
+       ]
+    },
+    {
+       "id":375,
+       "text":"Vi har en ny förvaltare på vårt bolag och behöver uppdatera kontaktuppgifterna i fullmakten. Hans namn är Marcus Andersson, och hans telefonnummer är 070-987 65 43.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Marcus Andersson"
+          },
+          {
+             "label":"[TELEFONNUMMER]",
+             "value":"070-987 65 43"
+          }
+       ]
+    },
+    {
+       "id":376,
+       "text":"Jag har fått ett nytt LEI för vårt företag och behöver uppdatera detta i systemet. Det tidigare numret var 8976005F1I3K2U4T7896, och det nya är 9845002Y5G9X4R8Q1354.",
+       "to_mask":[
+          {
+             "label":"[LEI]",
+             "value":"8976005F1I3K2U4T7896"
+          },
+          {
+             "label":"[LEI]",
+             "value":"9845002Y5G9X4R8Q1354"
+          }
+       ]
+    },
+    {
+       "id":377,
+       "text":"Vi behöver återkalla en fullmakt som har registrerats på vårt konto. Fullmakten är kopplad till vår depå med nummer 231567-987.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"231567-987"
+          }
+       ]
+    },
+    {
+       "id":378,
+       "text":"Hej, vi har skickat in en begäran om att avsluta depån för dödsboet efter Anna Eriksson. Depånumret är 456789-123. Kan ni bekräfta statusen på vår ansökan?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna Eriksson"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"456789-123"
+          }
+       ]
+    },
+    {
+       "id":379,
+       "text":"Jag är dödsbodelägare i min fars dödsbo och vill flytta värdepapper till min personliga depå. Min fars namn var Lars Svensson, och hans depånummer var 874563-987.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lars Svensson"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"874563-987"
+          }
+       ]
+    },
+    {
+       "id":380,
+       "text":"Vi har registrerat en fullmakt för att hantera dödsboet efter Karin Andersson, men har ännu inte fått bekräftelse. Kan ni verifiera att fullmakten är godkänd?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Karin Andersson"
+          }
+       ]
+    },
+    {
+       "id":381,
+       "text":"Jag vill ändra bankkontot för utbetalning av medel från min mors dödsbo. Det nuvarande kontot är 8327-9876543, men jag vill använda ett annat.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"8327-9876543"
+          }
+       ]
+    },
+    {
+       "id":382,
+       "text":"Vi har skickat in bouppteckningen för min avlidne bror och behöver bekräftelse på att den har registrerats korrekt. Hans personnummer var 720101-4567.",
+       "to_mask":[
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"720101-4567"
+          }
+       ]
+    },
+    {
+       "id":383,
+       "text":"Vi är tre dödsbodelägare och vill fördela depåns innehåll enligt testamentet. Dödsboet är registrerat på Erik Lundberg, depånummer 567432-198.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Lundberg"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"567432-198"
+          }
+       ]
+    },
+    {
+       "id":384,
+       "text":"Jag behöver en kopia av det inskickade avslutsuppdraget för min fars dödsbo. Hans namn var Stig Johansson, och depån fanns hos Nordnet.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Stig Johansson"
+          }
+       ]
+    },
+    {
+       "id":385,
+       "text":"Vi har beslutat att flytta dödsboets fonder till en intern depå. Depånumret är 321789-654. Hur lång tid tar en sådan process?",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"321789-654"
+          }
+       ]
+    },
+    {
+       "id":386,
+       "text":"Jag är arvtagare i ett dödsbo och behöver uppdatera mina kontaktuppgifter i ärendet. Min e-postadress är arvinge@example.com och telefonnummer är 070-123 45 67.",
+       "to_mask":[
+          {
+             "label":"[E-POST]",
+             "value":"arvinge@example.com"
+          },
+          {
+             "label":"[TELEFONNUMMER]",
+             "value":"070-123 45 67"
+          }
+       ]
+    },
+    {
+       "id":387,
+       "text":"Kan ni bekräfta att vi har bifogat alla nödvändiga dokument för att avsluta min farfars depå? Hans personnummer var 600512-7890.",
+       "to_mask":[
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"600512-7890"
+          }
+       ]
+    },
+    {
+       "id":388,
+       "text":"Hej, jag vill få en statusuppdatering gällande avslut av depån för dödsboet efter Johan Nilsson. Depå-/kontonummer hos Nordnet är 456789-321. Kan ni bekräfta om processen har påbörjats?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Nilsson"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"456789-321"
+          }
+       ]
+    },
+    {
+       "id":389,
+       "text":"Jag är dödsbohandläggare för dödsboet efter Anna Larsson och behöver uppdatera kontaktuppgifterna i ärendet. Depå-/kontonummer hos Nordnet är 874123-567.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna Larsson"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"874123-567"
+          }
+       ]
+    },
+    {
+       "id":390,
+       "text":"Jag vill genomföra en överföring av värdepapper från ett dödsbo till min privata depå. Dödsboets VP-/depånummer är 789654-123 och min depå hos Nordnet är 123987-654.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"789654-123"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"123987-654"
+          }
+       ]
+    },
+    {
+       "id":391,
+       "text":"Kan ni bekräfta att samtliga dödsbodelägare har signerat avslutsuppdraget för dödsboet efter Karl Andersson? Depånummer är 567432-198.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Karl Andersson"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"567432-198"
+          }
+       ]
+    },
+    {
+       "id":392,
+       "text":"Vi har skickat in en begäran om att sälja alla fonder i depån kopplad till dödsboet efter Maria Lindholm. VP-/depånummer är 998877-665. Kan ni bekräfta att försäljningen är registrerad?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Maria Lindholm"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"998877-665"
+          }
+       ]
+    },
+    {
+       "id":393,
+       "text":"Jag behöver ändra kontonumret för utbetalning från ett dödsbo. Det tidigare kontot var kopplat till depå-/kontonummer 554433-221.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"554433-221"
+          }
+       ]
+    },
+    {
+       "id":394,
+       "text":"Vi är tre dödsbodelägare och vill dela upp värdepapper enligt testamentet. Dödsboets depånummer är 332211-999. Hur går vi tillväga?",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"332211-999"
+          }
+       ]
+    },
+    {
+       "id":395,
+       "text":"Jag vill avsluta dödsboets depå och föra över eventuella likvida medel till ett bankkonto. Depå-/kontonummer hos Nordnet är 776655-443.",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"776655-443"
+          }
+       ]
+    },
+    {
+       "id":396,
+       "text":"Kan ni verifiera att bouppteckningen för dödsboet efter Erik Sjögren är godkänd och registrerad? Depånummer är 111222-333.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Sjögren"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"111222-333"
+          }
+       ]
+    },
+    {
+       "id":397,
+       "text":"Jag har fått besked om att dödsboets depå är avslutad, men jag ser fortfarande värdepapper registrerade på VP-/depånummer 555666-777. Kan ni undersöka detta?",
+       "to_mask":[
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"555666-777"
+          }
+       ]
+    },
+    {
+       "id":398,
+       "text":"Hej, jag behöver verifiera att vårt företags registreringsnummer 556789-1234 är korrekt registrerat för att erhålla skattenedsättning enligt dubbelbeskattningsavtalet mellan Sverige och USA.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-1234"
+          }
+       ]
+    },
+    {
+       "id":399,
+       "text":"Vi har nyligen uppdaterat vårt utländska skatteregistreringsnummer (TIN) från 874512-9876 till 998877-6655 och behöver säkerställa att Nordnet har uppdaterat vår information.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"874512-9876"
+          },
+          {
+             "label":"[TIN]",
+             "value":"998877-6655"
+          }
+       ]
+    },
+    {
+       "id":400,
+       "text":"Jag vill ändra skatterättslig hemvist för vårt bolag. Just nu är vi registrerade i Sverige, men vi har nyligen flyttat vårt skattehemvist till Tyskland. Vårt organisationsnummer är 556432-9876.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556432-9876"
+          },
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Tyskland"
+          }
+       ]
+    },
+    {
+       "id":401,
+       "text":"Kan ni bekräfta att vårt bolags skatterättsliga hemvist är registrerat som Norge? Vårt utländska skatteregistreringsnummer är 765432-1234.",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Norge"
+          },
+          {
+             "label":"[TIN]",
+             "value":"765432-1234"
+          }
+       ]
+    },
+    {
+       "id":402,
+       "text":"Vi har skickat in en uppdatering av vårt företagsregistreringsnummer. Vårt gamla nummer var 556321-6789, men vi har nu fått ett nytt organisationsnummer 556789-4321 efter en bolagsomstrukturering.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556321-6789"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-4321"
+          }
+       ]
+    },
+    {
+       "id":403,
+       "text":"Jag behöver en bekräftelse på att vårt företag uppfyller kraven i dubbelbeskattningsavtalet mellan Sverige och USA för att erhålla nedsatt källskatt. Vårt organisationsnummer är 559012-8765.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"559012-8765"
+          }
+       ]
+    },
+    {
+       "id":404,
+       "text":"Vi har registrerat en ny filial i Storbritannien och behöver uppdatera vårt Foreign Tax Registration Number (TIN). Det nya numret är 332211-9988.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"332211-9988"
+          }
+       ]
+    },
+    {
+       "id":405,
+       "text":"Jag vill bekräfta att vårt företag har ett giltigt organisationsnummer och är registrerat i systemet med vårt norska skatteregistreringsnummer 654321-7890.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"654321-7890"
+          }
+       ]
+    },
+    {
+       "id":406,
+       "text":"Vårt företag har nyligen genomgått en fusion, och vi har fått ett nytt organisationsnummer 779900-1234. Kan ni uppdatera vår information i ert system?",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"779900-1234"
+          }
+       ]
+    },
+    {
+       "id":407,
+       "text":"Jag vill ändra vår företagsadress i systemet. Den tidigare adressen var Box 123, 114 56 Stockholm, men vi har nu flyttat till Vasagatan 12, 111 20 Stockholm.",
+       "to_mask":[
+          {
+             "label":"[ADRESSHISTORIA]",
+             "value":"Box 123, 114 56 Stockholm"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Vasagatan 12, 111 20 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":408,
+       "text":"Hej, vårt företag är registrerat som ett finansiellt institut och vi vill verifiera att vårt GIIN-nummer 123456.78901.TRF är korrekt registrerat i ert system.",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"123456.78901.TRF"
+          }
+       ]
+    },
+    {
+       "id":409,
+       "text":"Vi har nyligen ansökt om ett nytt GIIN-nummer efter en bolagsfusion. Vårt tidigare GIIN var 987654.32109.BRF och vårt nya är 456789.12345.CXF. Kan ni uppdatera vårt konto?",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"987654.32109.BRF"
+          },
+          {
+             "label":"[GIIN]",
+             "value":"456789.12345.CXF"
+          }
+       ]
+    },
+    {
+       "id":410,
+       "text":"Vi behöver lägga till vårt GIIN-nummer i systemet för att uppfylla FATCA-kraven. Vårt GIIN är 112233.44556.TYT och vårt organisationsnummer är 556789-4321.",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"112233.44556.TYT"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-4321"
+          }
+       ]
+    },
+    {
+       "id":411,
+       "text":"Vårt företag har skatterättslig hemvist utanför Sverige och är registrerat i Schweiz. Vi behöver bekräfta att vårt GIIN-nummer 998877.66554.PMF är uppdaterat i ert register.",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"998877.66554.PMF"
+          },
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Schweiz"
+          }
+       ]
+    },
+    {
+       "id":412,
+       "text":"Jag behöver en kopia av vårt företags intygande om skatteskyldighet. Vi har tidigare lämnat in vårt GIIN-nummer 223344.55667.ZXA och vill säkerställa att det fortfarande är giltigt.",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"223344.55667.ZXA"
+          }
+       ]
+    },
+    {
+       "id":413,
+       "text":"Hej, vi har nyligen uppdaterat styrelsen i vårt företag och behöver registrera en ny verklig huvudman. Den nya huvudmannen är Erik Svensson, personnummer 740812-5678. Kan ni uppdatera detta i ert system?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Svensson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"740812-5678"
+          }
+       ]
+    },
+    {
+       "id":414,
+       "text":"Vi har fått besked om att vår registrering av verklig huvudman saknar information om aktieinnehav. Vår verkliga huvudman, Anna Bergström, har ett aktieinnehav på 30%. Kan ni uppdatera detta?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna Bergström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"30%"
+          }
+       ]
+    },
+    {
+       "id":415,
+       "text":"Vi ser att vår verkliga huvudman är registrerad med felaktigt födelseland. Den korrekta informationen är att personen är född i Danmark, inte Sverige. Kan ni korrigera detta?",
+       "to_mask":[
+          {
+             "label":"[FÖDELSELAND]",
+             "value":"Danmark"
+          }
+       ]
+    },
+    {
+       "id":416,
+       "text":"Vi har tidigare varit i kontakt med kundsupport angående registrering av vår verkliga huvudman. Vi skickade in ansökan den 15 mars men har ännu inte fått någon bekräftelse. När kan vi förvänta oss ett svar?",
+       "to_mask":[
+          {
+             "label":"[FÖDELSEDAG]",
+             "value":"15 mars"
+          }
+       ]
+    },
+    {
+       "id":417,
+       "text":"Tack för er tidigare hjälp. Ni nämnde att vårt företag saknar information om skatterättslig hemvist för vår verkliga huvudman. Personen har skatterättslig hemvist i Schweiz och TIN är 998877-6655.",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Schweiz"
+          },
+          {
+             "label":"[TIN]",
+             "value":"998877-6655"
+          }
+       ]
+    },
+    {
+       "id":418,
+       "text":"Hej igen, ni bad oss komplettera vår registrering med en kopia av den verkliga huvudmannens pass. Vi har nu skickat detta via e-post. Kan ni bekräfta att ni har mottagit det?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":419,
+       "text":"Vi vill registrera en ny verklig huvudman efter en företagsfusion. Vårt nya organisationsnummer är 556789-1234 och den nya huvudmannen är Johan Karlsson.",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-1234"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Johan Karlsson"
+          }
+       ]
+    },
+    {
+       "id":420,
+       "text":"Hej, ni har tidigare nämnt att vi behöver registrera om vår verkliga huvudman på grund av förändringar i ägarstrukturen. Vi har nu fyllt i och skickat in de nödvändiga dokumenten. När kan vi förvänta oss en uppdatering i systemet?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":421,
+       "text":"Vi har fått ett meddelande om att vår verkliga huvudman saknar registrerat TIN-nummer. Personen har skatterättslig hemvist i Frankrike och TIN är 223344-5566. Kan ni bekräfta att detta har uppdaterats?",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Frankrike"
+          },
+          {
+             "label":"[TIN]",
+             "value":"223344-5566"
+          }
+       ]
+    },
+    {
+       "id":422,
+       "text":"Hej, vår verkliga huvudman har nyligen fått amerikanskt medborgarskap och behöver nu registrera sitt US TIN i systemet. Det nya numret är 789654-3210.",
+       "to_mask":[
+          {
+             "label":"[TIN]",
+             "value":"789654-3210"
+          }
+       ]
+    },
+    {
+       "id":423,
+       "text":"Hej Erik, vi har nu uppdaterat ditt företags verkliga huvudman i vårt system. Den nya registreringen gäller Johan Ekström, personnummer 751223-4567. Vänligen verifiera att informationen stämmer och meddela oss om några ändringar behövs.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Johan Ekström"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"751223-4567"
+          }
+       ]
+    },
+    {
+       "id":424,
+       "text":"Hej Anna, vi har nu bekräftat att din ansökan om att registrera en ny verklig huvudman har godkänts. Den verkliga huvudmannen är Karl Lindberg och organisationsnumret är 556789-4321. Tveka inte att höra av dig om du har fler frågor!",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Karl Lindberg"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-4321"
+          }
+       ]
+    },
+    {
+       "id":425,
+       "text":"Hej Mikael, vi har nu mottagit din begäran om att uppdatera TIN-nummer för din verkliga huvudman. Det tidigare numret 874512-9876 har ersatts med 998877-6655. Vänligen dubbelkolla att detta stämmer.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Mikael"
+          },
+          {
+             "label":"[TIN]",
+             "value":"874512-9876"
+          },
+          {
+             "label":"[TIN]",
+             "value":"998877-6655"
+          }
+       ]
+    },
+    {
+       "id":426,
+       "text":"Hej Lisa, vi har nu godkänt din ansökan om ändring av bolagsinformation. Din verkliga huvudman, Anders Holmström, är nu registrerad med skatterättslig hemvist i Tyskland och TIN 112233-4455.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lisa"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Anders Holmström"
+          },
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Tyskland"
+          },
+          {
+             "label":"[TIN]",
+             "value":"112233-4455"
+          }
+       ]
+    },
+    {
+       "id":427,
+       "text":"Hej Per, vi har nu mottagit din förfrågan om att uppdatera LEI-nummer i systemet. Det gamla numret 5493001KJTIIGC8Y1R12 har ersatts med 2138004KJTIIGC9X1P89. Vänligen bekräfta att det är korrekt.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Per"
+          },
+          {
+             "label":"[LEI]",
+             "value":"5493001KJTIIGC8Y1R12"
+          },
+          {
+             "label":"[LEI]",
+             "value":"2138004KJTIIGC9X1P89"
+          }
+       ]
+    },
+    {
+       "id":428,
+       "text":"Hej Johanna, vi har nu verifierat att din begäran om att registrera en verklig huvudman är korrekt inskickad. Din verkliga huvudman, Gustav Eriksson, är nu kopplad till organisationsnummer 556987-1234.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johanna"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Gustav Eriksson"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556987-1234"
+          }
+       ]
+    },
+    {
+       "id":429,
+       "text":"Hej Henrik, din förfrågan om att uppdatera bankkontonummer för utbetalningar från din depå är nu genomförd. Ditt nya registrerade bankkontonummer är 8327-9876543.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Henrik"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"8327-9876543"
+          }
+       ]
+    },
+    {
+       "id":430,
+       "text":"Hej Sofia, vi har mottagit och registrerat din adressändring. Din nya folkbokföringsadress är Storgatan 45, 114 56 Stockholm.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Sofia"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Storgatan 45, 114 56 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":431,
+       "text":"Hej Daniel, vi har nu avslutat depån för dödsboet efter Erik Sundström. Alla tillgångar har överförts enligt instruktioner. Om du behöver ytterligare information, vänligen kontakta oss.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Daniel"
+          },
+          {
+             "label":"[NAMN]",
+             "value":"Erik Sundström"
+          }
+       ]
+    },
+    {
+       "id":432,
+       "text":"Hej Anna, du kontaktade oss tidigare angående registreringen av din verkliga huvudman. Vi kan bekräfta att din ansökan är mottagen och att den är under behandling.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna"
+          }
+       ]
+    },
+    {
+       "id":433,
+       "text":"Hej, vi har registrerat en ny ägarstruktur där vår verkliga huvudman, Johan Lindström, indirekt äger 60% av vårt bolag via Holding Group AB (organisationsnummer 556789-1234). Kan ni bekräfta att detta har uppdaterats i ert system?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Lindström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"60%"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Holding Group AB"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-1234"
+          }
+       ]
+    },
+    {
+       "id":434,
+       "text":"Vi har tidigare meddelat en förändring i vår ägarstruktur, men har inte fått bekräftelse. Vår verkliga huvudman, Anna Bergström, äger indirekt bolaget genom Investment AB (organisationsnummer 556432-5678). Kan ni verifiera att detta har registrerats korrekt?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna Bergström"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Investment AB"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556432-5678"
+          }
+       ]
+    },
+    {
+       "id":435,
+       "text":"Vi har nyligen genomgått en bolagsstrukturförändring där vårt moderbolag, Global Holdings Ltd, nu äger 80% av vår verksamhet. Vår verkliga huvudman, Erik Sandberg, äger majoriteten av Global Holdings Ltd. Behöver vi skicka in kompletterande dokumentation?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Erik Sandberg"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Global Holdings Ltd"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"80%"
+          }
+       ]
+    },
+    {
+       "id":436,
+       "text":"Kan ni bekräfta att vår verkliga huvudman, Lars Edström, som äger 55% av vårt bolag indirekt via Edström Capital AB (organisationsnummer 559876-2345), är korrekt registrerad i ert system?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lars Edström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"55%"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Edström Capital AB"
+          },
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"559876-2345"
+          }
+       ]
+    },
+    {
+       "id":437,
+       "text":"Vi har skickat in uppgifter om en ny ägarstruktur, där vårt bolag ägs av flera juridiska personer i olika led. Den verkliga huvudmannen, Sara Nilsson, kontrollerar 70% genom både Holding Invest AB och Scandinavian Group Ltd. Kan ni bekräfta att alla bolag i ägarstrukturen är registrerade korrekt?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Sara Nilsson"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"70%"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Holding Invest AB"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Scandinavian Group Ltd"
+          }
+       ]
+    },
+    {
+       "id":438,
+       "text":"Vi vill rapportera en förändring i ägarförhållanden där vår verkliga huvudman nu endast kontrollerar 40% istället för 65%. Den nya ägarfördelningen påverkar strukturen där en annan juridisk person har tagit över majoriteten.",
+       "to_mask":[
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"40%"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"65%"
+          }
+       ]
+    },
+    {
+       "id":439,
+       "text":"Kan ni bekräfta att vår verkliga huvudman, Markus Eklund, fortfarande är registrerad med indirekt ägarskap i vårt företag genom Eklund Investments AB?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Markus Eklund"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Eklund Investments AB"
+          }
+       ]
+    },
+    {
+       "id":440,
+       "text":"Vi har tidigare fått besked om att vi behöver specificera fler ägarled i vår registrering. Vår verkliga huvudman, Patrik Jonsson, kontrollerar företaget genom flera mellanled. Vilken nivå av detaljer krävs för att registreringen ska godkännas?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Patrik Jonsson"
+          }
+       ]
+    },
+    {
+       "id":441,
+       "text":"Vi har nyligen ändrat vår bolagsstruktur och den verkliga huvudmannen, Hanna Söderström, äger nu 75% genom en ny koncernstruktur. Vilka handlingar behöver vi skicka in för att uppdatera detta?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Hanna Söderström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"75%"
+          }
+       ]
+    },
+    {
+       "id":442,
+       "text":"Hej, vi vill bekräfta att vår verkliga huvudman, Oskar Nyström, som kontrollerar 90% av företaget genom en stiftelse, är korrekt registrerad. Stiftelsens namn är Nyström Foundation.",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Oskar Nyström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"90%"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Nyström Foundation"
+          }
+       ]
+    },
+    {
+       "id":443,
+       "text":"Hej, jag vill göra ett uttag från min depå till mitt konto hos en annan bank. Mitt clearingnummer är 8327 och kontonummer är 987654321. Kan ni bekräfta att överföringen har genomförts?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"8327"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"987654321"
+          }
+       ]
+    },
+    {
+       "id":444,
+       "text":"Jag skickade in en begäran om att föra över medel från mitt konto hos er till min nya bank. Det registrerade kontot har clearingnummer 5432 och kontonummer 1122334455. Hur lång tid tar processen?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"5432"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"1122334455"
+          }
+       ]
+    },
+    {
+       "id":445,
+       "text":"Hej, jag har bytt bank och behöver uppdatera mitt registrerade uttagskonto. Mitt gamla konto hade clearingnummer 6789 och kontonummer 4455667788, och det nya kontot har clearingnummer 9876 och kontonummer 2233445566.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"6789"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"4455667788"
+          },
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"9876"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"2233445566"
+          }
+       ]
+    },
+    {
+       "id":446,
+       "text":"Kan ni bekräfta att mitt uttagskonto är registrerat korrekt? Mitt konto hos Handelsbanken har clearingnummer 6123 och kontonummer 9988776655.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"6123"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"9988776655"
+          }
+       ]
+    },
+    {
+       "id":447,
+       "text":"Jag har begärt ett uttag från min pension till mitt personliga bankkonto. Det registrerade kontot har clearingnummer 4567 och kontonummer 3322110099. Kan ni bekräfta när utbetalningen kommer att ske?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"4567"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"3322110099"
+          }
+       ]
+    },
+    {
+       "id":448,
+       "text":"Hej, jag behöver göra en engångsöverföring från min depå till ett externt konto. Mottagarkontot har clearingnummer 7890 och kontonummer 5544332211. Vilka avgifter gäller?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"7890"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"5544332211"
+          }
+       ]
+    },
+    {
+       "id":449,
+       "text":"Kan ni uppdatera mitt registrerade bankkonto för framtida uttag? Mitt nya konto har clearingnummer 8765 och kontonummer 6677889900.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"8765"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"6677889900"
+          }
+       ]
+    },
+    {
+       "id":450,
+       "text":"Jag vill annullera en tidigare inskickad överföring av medel från min depå till ett externt konto. Kontot som skulle mottaga pengarna har clearingnummer 4321 och kontonummer 1234567890.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"4321"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"1234567890"
+          }
+       ]
+    },
+    {
+       "id":451,
+       "text":"Jag har gjort en begäran om månatliga utbetalningar till mitt bankkonto. Vänligen bekräfta att det registrerade kontot har clearingnummer 9102 och kontonummer 3344556677.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"9102"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"3344556677"
+          }
+       ]
+    },
+    {
+       "id":452,
+       "text":"Hej, vi behöver säkerställa att vår företagsutbetalning kommer att göras till rätt konto. Vårt registrerade bankkonto har clearingnummer 2098 och kontonummer 7766554433.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"2098"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"7766554433"
+          }
+       ]
+    },
+    {
+       "id":453,
+       "text":"Hej, jag vill säkerställa att min månadsvisa pensionsutbetalning sker enligt schemat. Kan ni bekräfta att utbetalningen för denna månad har skickats till mitt registrerade konto med clearingnummer 8314 och kontonummer 1122334455?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"8314"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"1122334455"
+          }
+       ]
+    },
+    {
+       "id":454,
+       "text":"Jag har märkt att min senaste månadsutbetalning inte har kommit in på mitt konto. Mitt registrerade konto har clearingnummer 9876 och kontonummer 5544332211. Kan ni undersöka vad som har hänt?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"9876"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"5544332211"
+          }
+       ]
+    },
+    {
+       "id":455,
+       "text":"Hej, jag vill ändra bankkonto för mina månadsutbetalningar. Mitt nuvarande konto har clearingnummer 7654 och kontonummer 3322110099, och jag vill att utbetalningarna ska gå till mitt nya konto med clearingnummer 4567 och kontonummer 9988776655.",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"7654"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"3322110099"
+          },
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"4567"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"9988776655"
+          }
+       ]
+    },
+    {
+       "id":456,
+       "text":"Jag har tidigare fått månadsutbetalningar men ser att det inte har kommit någon insättning denna månad. Kan ni kontrollera varför utbetalningen är försenad?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":457,
+       "text":"Jag vill pausa mina månadsutbetalningar under sex månader på grund av skatteregler i mitt nuvarande land. Hur kan jag genomföra detta?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":458,
+       "text":"Jag planerar att gå i pension tidigare än planerat och vill börja ta ut mina månadsutbetalningar vid 62 års ålder istället för 65. Hur påverkar det min pensionsplan?",
+       "to_mask":[
+          {
+             "label":"[ÅLDER]",
+             "value":"62"
+          },
+          {
+             "label":"[ÅLDER]",
+             "value":"65"
+          }
+       ]
+    },
+    {
+       "id":459,
+       "text":"Kan ni bekräfta att min månadsvisa utbetalning är korrekt beräknad? Jag vill försäkra mig om att jag får rätt belopp enligt min pensionsplan.",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":460,
+       "text":"Hej, jag vill ändra frekvensen på mina utbetalningar från månadsvis till kvartalsvis. Hur gör jag detta och när träder ändringen i kraft?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":461,
+       "text":"Jag har fått besked om att min månadsutbetalning kommer att justeras på grund av ändringar i skatteregler. Kan ni förklara hur detta påverkar mitt utbetalningsbelopp?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":462,
+       "text":"Hej, jag vill att min månadsutbetalning ska börja vid 55 års ålder istället för 60 år. Kan ni hjälpa mig med att uppdatera detta i ert system?",
+       "to_mask":[
+          {
+             "label":"[ÅLDER]",
+             "value":"55"
+          },
+          {
+             "label":"[ÅLDER]",
+             "value":"60"
+          }
+       ]
+    },
+    {
+       "id":463,
+       "text":"Hej, jag vill begära att mina personuppgifter raderas enligt artikel 17 i Dataskyddsförordningen. Kan ni hjälpa mig med detta?",
+       "to_mask":[
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"19850505-1234"
+          }
+       ]
+    },
+    {
+       "id":464,
+       "text":"Jag vill invända mot behandlingen av mina personuppgifter som rör min nuvarande anställning. Hur kan jag göra detta?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Eva Andersson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"19900101-5678"
+          }
+       ]
+    },
+    {
+       "id":465,
+       "text":"Jag önskar att ni begränsar behandlingen av mina personuppgifter för marknadsföring. Vad behöver jag göra för att få detta åtgärdat?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lars Nilsson"
+          }
+       ]
+    },
+    {
+       "id":466,
+       "text":"Jag vill begära dataportabilitet för de personuppgifter ni har om mig. Kan ni skicka mig dessa uppgifter så att jag kan överföra dem till en annan leverantör?",
+       "to_mask":[
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"19830303-9876"
+          }
+       ]
+    },
+    {
+       "id":467,
+       "text":"Jag har märkt att mina personuppgifter är felaktiga. Jag vill begära rättelse av dessa. Vad ska jag göra?",
+       "to_mask":[
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"19921212-3456"
+          }
+       ]
+    },
+    {
+       "id":468,
+       "text":"Jag skulle vilja få tillgång till alla personuppgifter ni har om mig. Hur kan jag göra en sådan begäran?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Mikael Eriksson"
+          },
+          {
+             "label":"[PERSONNUMMER]",
+             "value":"19890509-6543"
+          }
+       ]
+    },
+    {
+       "id":469,
+       "text":"Vårt företag vill radera alla personuppgifter som ni har lagrat om våra tidigare anställda. Hur går vi tillväga?",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556677-8899"
+          }
+       ]
+    },
+    {
+       "id":470,
+       "text":"Som HR-chef vill jag invända mot behandlingen av våra anställdas personuppgifter som används för att skapa prestandarapporter. Hur kan jag registrera denna invändning?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"DataTech AB"
+          },
+          {
+             "label":"[TITEL]",
+             "value":"HR-chef"
+          }
+       ]
+    },
+    {
+       "id":471,
+       "text":"Vi behöver begränsa tillgången till känslig information om våra kunder. Kan ni hjälpa oss att sätta upp rättighetsbegränsningar för detta?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"ConsultingCo AB"
+          }
+       ]
+    },
+    {
+       "id":472,
+       "text":"Jag behöver hjälp med att överföra anställdas personuppgifter från vårt nuvarande HR-system till ett nytt system. Innefattar detta dataportabilitet?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"TechSolutions AB"
+          }
+       ]
+    },
+    {
+       "id":473,
+       "text":"Jag upptäckte att vissa av våra kunders personuppgifter är felaktiga i vårt CRM-system. Hur begär jag rättelse av dessa uppgifter?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"SalesCorp AB"
+          }
+       ]
+    },
+    {
+       "id":474,
+       "text":"Kan ni förse oss med en fullständig rapport över alla personuppgifter vi har lagrat hos er angående våra anställda?",
+       "to_mask":[
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"InnovateTech AB"
+          }
+       ]
+    },
+    {
+       "id":475,
+       "text":"Vi har skickat in en uppdatering av vårt GIIN-nummer från 223344.55667.ZXA till 998877.66554.PMF. Kan ni bekräfta att ändringen har registrerats?",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"223344.55667.ZXA"
+          },
+          {
+             "label":"[GIIN]",
+             "value":"998877.66554.PMF"
+          }
+       ]
+    },
+    {
+       "id":476,
+       "text":"Jag vill ansöka om pensionsutbetalning tidigare än planerat och ändra min utbetalningsstart från 65 till 60 års ålder. Hur påverkar detta min pensionsnivå?",
+       "to_mask":[
+          {
+             "label":"[ÅLDER]",
+             "value":"65"
+          },
+          {
+             "label":"[ÅLDER]",
+             "value":"60"
+          }
+       ]
+    },
+    {
+       "id":477,
+       "text":"Vi har nyligen genomfört en bolagsförändring där vår verkliga huvudman, Henrik Jansson, nu äger 80% av vårt bolag genom Investment Holding AB. Kan ni bekräfta att detta är uppdaterat?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Henrik Jansson"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"80%"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Investment Holding AB"
+          }
+       ]
+    },
+    {
+       "id":478,
+       "text":"Hej, jag vill avsluta min depå och föra över medlen till en annan bank. Mitt clearingnummer är 5432 och mitt kontonummer är 9988776655. Vad är nästa steg?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"5432"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"9988776655"
+          }
+       ]
+    },
+    {
+       "id":479,
+       "text":"Vi har nyligen upptäckt att vår registrerade verkliga huvudman saknar skatterättslig hemvist. Personen har hemvist i Schweiz och TIN 112233-4455. Kan ni uppdatera detta?",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Schweiz"
+          },
+          {
+             "label":"[TIN]",
+             "value":"112233-4455"
+          }
+       ]
+    },
+    {
+       "id":480,
+       "text":"Hej, jag har fått ett meddelande om att min senaste månadsutbetalning har nekats på grund av ett felaktigt bankkonto. Kan ni hjälpa mig att rätta till detta?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":481,
+       "text":"Kan ni bekräfta att vårt bolags organisationsnummer 556987-6543 fortfarande är korrekt registrerat för skatteändamål?",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556987-6543"
+          }
+       ]
+    },
+    {
+       "id":482,
+       "text":"Vi har nyligen genomfört en adressändring för vårt bolag från Storgatan 12 till Vasagatan 45, 111 20 Stockholm. Kan ni bekräfta att detta är uppdaterat i ert system?",
+       "to_mask":[
+          {
+             "label":"[ADRESSHISTORIA]",
+             "value":"Storgatan 12"
+          },
+          {
+             "label":"[ADRESS]",
+             "value":"Vasagatan 45, 111 20 Stockholm"
+          }
+       ]
+    },
+    {
+       "id":483,
+       "text":"Vi har ett ärende där vi vill omfördela våra pensionsfonder till en annan fond. Hur lång tid tar det innan ändringen genomförs?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":484,
+       "text":"Hej, jag behöver skicka in en begäran om att flytta mitt individuella pensionssparande (IPS) till en annan bank. Vilka dokument behöver jag bifoga?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":485,
+       "text":"Jag har begärt ett uttag till mitt privata bankkonto men har ännu inte fått pengarna. Mitt registrerade konto har clearingnummer 6789 och kontonummer 1122334455. Kan ni kontrollera detta?",
+       "to_mask":[
+          {
+             "label":"[CLEARINGNUMMER]",
+             "value":"6789"
+          },
+          {
+             "label":"[BANKKONTONUMMER]",
+             "value":"1122334455"
+          }
+       ]
+    },
+    {
+       "id":486,
+       "text":"Hej, vi har fått besked om att vi behöver ange fler detaljer kring vår ägarstruktur. Vår verkliga huvudman, Johan Eriksson, kontrollerar företaget via tre olika holdingbolag. Vilken nivå av detaljer krävs?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Eriksson"
+          }
+       ]
+    },
+    {
+       "id":487,
+       "text":"Jag vill bekräfta att mitt GIIN-nummer 987654.32109.BRF fortfarande är registrerat för FATCA-ändamål. Kan ni kontrollera detta?",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"987654.32109.BRF"
+          }
+       ]
+    },
+    {
+       "id":488,
+       "text":"Vi vill genomföra en fusion där vår verkliga huvudman, Sofie Karlsson, kommer att äga 70% av det nya bolaget. Vilka dokument krävs för registrering?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Sofie Karlsson"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"70%"
+          }
+       ]
+    },
+    {
+       "id":489,
+       "text":"Jag vill uppdatera mina uppgifter i er kundportal och säkerställa att min pensionsutbetalning går till rätt bankkonto. Hur gör jag detta?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":490,
+       "text":"Vi har skickat in en förfrågan om att uppdatera vårt företags verkliga huvudman, men har ännu inte fått en bekräftelse. När kan vi förvänta oss ett svar?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":491,
+       "text":"Hej, vi har fått ett meddelande från Skatteverket om att vårt företag saknar registrering för skatterättslig hemvist. Vi har skatterättslig hemvist i Norge och vårt TIN är 223344-5566. Kan ni hjälpa oss att lösa detta?",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Norge"
+          },
+          {
+             "label":"[TIN]",
+             "value":"223344-5566"
+          }
+       ]
+    },
+    {
+       "id":492,
+       "text":"Vi har försökt registrera vår verkliga huvudman hos Bolagsverket men fått avslag på grund av bristfällig dokumentation. Vår verkliga huvudman, Lars Edström, kontrollerar 60% av bolaget genom Holding Group AB. Vad behöver vi komplettera med?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Lars Edström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"60%"
+          },
+          {
+             "label":"[ARBETSPLATS]",
+             "value":"Holding Group AB"
+          }
+       ]
+    },
+    {
+       "id":493,
+       "text":"Skatteverket har meddelat oss att vårt GIIN-nummer inte är registrerat korrekt. Vårt nuvarande GIIN är 998877.66554.PMF. Hur kan vi uppdatera detta i ert system?",
+       "to_mask":[
+          {
+             "label":"[GIIN]",
+             "value":"998877.66554.PMF"
+          }
+       ]
+    },
+    {
+       "id":494,
+       "text":"Vi har fått en notis från Bolagsverket om att vårt bolags verkliga huvudman inte är korrekt registrerad. Personen är bosatt i Schweiz och har TIN 112233-4455. Kan ni hjälpa oss att verifiera och korrigera detta?",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Schweiz"
+          },
+          {
+             "label":"[TIN]",
+             "value":"112233-4455"
+          }
+       ]
+    },
+    {
+       "id":495,
+       "text":"Hej, Skatteverket har avvisat vår ansökan om skattehemvist i Sverige eftersom vårt bolags LEI-nummer saknades i registreringen. Vårt LEI är 5493001KJTIIGC8Y1R12. Kan ni hjälpa oss att uppdatera detta?",
+       "to_mask":[
+          {
+             "label":"[LEI]",
+             "value":"5493001KJTIIGC8Y1R12"
+          }
+       ]
+    },
+    {
+       "id":496,
+       "text":"Bolagsverket har skickat tillbaka vår ansökan om ny styrelse eftersom det saknas en verifierad verklig huvudman. Den verkliga huvudmannen är Anna Bergström, och hon kontrollerar 75% av aktierna. Vad behöver vi komplettera med?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Anna Bergström"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"75%"
+          }
+       ]
+    },
+    {
+       "id":497,
+       "text":"Vi har fått besked från Skatteverket att vår registrering för dubbelbeskattningsavtal är ofullständig eftersom vi saknar ett giltigt utländskt TIN. Vårt bolag har skattehemvist i Storbritannien och vårt TIN är 554433-2211. Hur kan vi åtgärda detta?",
+       "to_mask":[
+          {
+             "label":"[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+             "value":"Storbritannien"
+          },
+          {
+             "label":"[TIN]",
+             "value":"554433-2211"
+          }
+       ]
+    },
+    {
+       "id":498,
+       "text":"Bolagsverket har avvisat vårt namnbyte eftersom det nya namnet inte matchar de registrerade ägaruppgifterna. Hur kan vi uppdatera vårt namn och säkerställa att det godkänns?",
+       "to_mask":[
+          
+       ]
+    },
+    {
+       "id":499,
+       "text":"Hej, Skatteverket har informerat oss om att vi saknar uppdaterad information om vår juridiska persons verkliga huvudman. Den verkliga huvudmannen, Johan Karlsson, kontrollerar 80% genom ett holdingbolag. Vad krävs för att komplettera vår registrering?",
+       "to_mask":[
+          {
+             "label":"[NAMN]",
+             "value":"Johan Karlsson"
+          },
+          {
+             "label":"[AKTIEINNEHAV]",
+             "value":"80%"
+          }
+       ]
+    },
+    {
+       "id":500,
+       "text":"Vi har försökt registrera vår verksamhet hos Skatteverket men fått avslag på grund av att vårt organisationsnummer saknas i ansökan. Vårt organisationsnummer är 556789-4321. Hur kan vi komplettera ansökan?",
+       "to_mask":[
+          {
+             "label":"[ORG-NUMMER]",
+             "value":"556789-4321"
+          }
+       ]
+    }
+ ]

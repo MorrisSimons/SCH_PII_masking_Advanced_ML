@@ -1,0 +1,1783 @@
+[
+    {
+      "id": 201,
+      "text": "Hej, jag heter Erik Johansson och vill uppdatera mitt skatteregistreringsnummer. Mitt nya nummer är 123456789 och det tilldelades av Sverige. Mitt företag, TechSolutions AB (org-nummer 557400-1234), behöver också uppdatera detta.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Erik Johansson"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "123456789"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        },
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "TechSolutions AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557400-1234"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "text": "Vi på BusinessFinance AB (org-nummer 557411-5678) vill öppna ett företagskonto och behöver ange vårt skatteregistreringsnummer 987654321 från Norge. Vänligen guida oss genom processen.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "BusinessFinance AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557411-5678"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "987654321"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Norge"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "text": "Hej, jag vill öppna ett sparkonto och behöver använda PlusGiro 123-4567. Jag heter Anna Lind och mitt skatteregistreringsnummer är 1122334455 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Anna Lind"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "123-4567"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "1122334455"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "text": "Vi på FinanceGroup AB (org-nummer 557422-9012) behöver ange försäkringsnummer för vår anställde, Johan Karlsson. Hans försäkringsnummer är F123456789 och han är försäkrad förutom sig själv.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinanceGroup AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557422-9012"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Johan Karlsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F123456789"
+        },
+        {
+          "label": "[FÖRSÄKRAD]",
+          "value": "utom sig själv"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "text": "Hej, jag heter Maria Svensson och vill ge min dotter, Emma Svensson, fullmakt att hantera hennes försäkringar. Emma har nyligen fyllt 18 år och hennes försäkringsnummer är F987654321.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Maria Svensson"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Emma Svensson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F987654321"
+        },
+        {
+          "label": "[ÅLDER]",
+          "value": "18"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "text": "Vi på CorporateFinance AB (org-nummer 557433-3456) behöver uppdatera vårt PlusGiro till 789-0123 för att underlätta våra företagsinbetalningar. Vänligen bekräfta ändringen.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "CorporateFinance AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557433-3456"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "789-0123"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "text": "Hej, jag heter Anders Nilsson och min försäkringsnummer är F555666777. Jag vill ge min fru, Karin Nilsson, fullmakt att hantera mina försäkringsärenden.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Anders Nilsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F555666777"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Karin Nilsson"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "text": "Vi på FinanceSolutions AB (org-nummer 557444-6789) behöver kundens skatteregistreringsnummer 9988776655 från Danmark för att slutföra kontohanteringen.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinanceSolutions AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557444-6789"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "9988776655"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Danmark"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "text": "Hej, jag vill öppna ett företagskonto för mitt företag, GreenTech AB (org-nummer 557455-0123). Vårt skatteregistreringsnummer är 6677889900 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "GreenTech AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557455-0123"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "6677889900"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "text": "Vi på BusinessServices AB (org-nummer 557466-3456) behöver försäkringsnummer för vår nya anställde, Lena Eriksson. Hennes försäkringsnummer är F112233445.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "BusinessServices AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557466-3456"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Lena Eriksson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F112233445"
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "text": "Hej, jag heter Johan Andersson och vill öppna ett sparkonto med PlusGiro 234-5678. Mitt skatteregistreringsnummer är 2233445566 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Johan Andersson"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "234-5678"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "2233445566"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "text": "Vi på FinanceGroup AB (org-nummer 557477-6789) behöver försäkringsnummer för vår klient, Erik Larsson. Hans försäkringsnummer är F556677889.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinanceGroup AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557477-6789"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Erik Larsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F556677889"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "text": "Hej, jag heter Anna Berg och vill öppna ett sparkonto. Mitt PlusGiro är 345-6789 och mitt skatteregistreringsnummer är 3344556677 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Anna Berg"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "345-6789"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "3344556677"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "text": "Vi på CorporateSolutions AB (org-nummer 557488-0123) behöver uppdatera kundens försäkringsnummer F998877665 för vår klient, Maria Andersson.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "CorporateSolutions AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557488-0123"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F998877665"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Maria Andersson"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "text": "Hej, jag heter Lars Nilsson och vill ge min son, Adam Nilsson, fullmakt att hantera sina försäkringar. Adam har nu fyllt 18 år och hans försäkringsnummer är F667788990.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Lars Nilsson"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Adam Nilsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F667788990"
+        },
+        {
+          "label": "[ÅLDER]",
+          "value": "18"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "text": "Vi på FinancePartners AB (org-nummer 557499-3456) behöver kundens PlusGiro 456-7890 för att slutföra företagskontots öppnande.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinancePartners AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557499-3456"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "456-7890"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "text": "Hej, jag vill uppdatera mitt skatteregistreringsnummer till 4455667788 från Tyskland. Jag heter Karin Larsson och vill öppna ett sparkonto med PlusGiro 567-8901.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Karin Larsson"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "4455667788"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Tyskland"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "567-8901"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "text": "Vi på BusinessFinance AB (org-nummer 557500-6789) behöver försäkringsnummer för vår nya anställde, Emma Karlsson. Hennes försäkringsnummer är F223344556.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "BusinessFinance AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557500-6789"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Emma Karlsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F223344556"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "text": "Hej, jag heter Peter Lind och vill öppna ett sparkonto med PlusGiro 678-9012. Mitt skatteregistreringsnummer är 5566778899 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Peter Lind"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "678-9012"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "5566778899"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "text": "Vi på FinanceSolutions AB (org-nummer 557511-0123) behöver uppdatera kundens försäkringsnummer F334455667 för vår klient, Anna Larsson.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinanceSolutions AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557511-0123"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F334455667"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Anna Larsson"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "text": "Hej, jag heter Linda Svensson och vill öppna ett sparkonto. Mitt PlusGiro är 789-0123 och mitt skatteregistreringsnummer är 6677889900 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Linda Svensson"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "789-0123"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "6677889900"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "text": "Vi på BusinessGrowth AB (org-nummer 557522-3456) behöver kundens försäkringsnummer F445566778 för vår klient, Erik Karlsson.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "BusinessGrowth AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557522-3456"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F445566778"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Erik Karlsson"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "text": "Hej, jag heter Sofia Lind och vill öppna ett sparkonto med PlusGiro 890-1234. Mitt skatteregistreringsnummer är 7788990011 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Sofia Lind"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "890-1234"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "7788990011"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "text": "Vi på CorporateFinance AB (org-nummer 557533-6789) behöver försäkringsnummer för vår nya anställde, Maria Karlsson. Hennes försäkringsnummer är F556677889.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "CorporateFinance AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557533-6789"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Maria Karlsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F556677889"
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "text": "Hej, jag heter Lars Nilsson och vill ge min son, Oscar Nilsson, fullmakt att hantera sina försäkringar. Oscar har nu fyllt 18 år och hans försäkringsnummer är F778899001.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Lars Nilsson"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Oscar Nilsson"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F778899001"
+        },
+        {
+          "label": "[ÅLDER]",
+          "value": "18"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "text": "Vi på FinancePartners AB (org-nummer 557544-0123) behöver kundens PlusGiro 901-2345 för att slutföra företagskontots öppnande.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinancePartners AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557544-0123"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "901-2345"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "text": "Hej, vi på BusinessFinance AB (org-nummer 557555-3456) behöver kundens skatteregistreringsnummer 8899001122 från Sverige för att uppdatera kontoinformationen.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "BusinessFinance AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557555-3456"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "8899001122"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "text": "Vi på FinanceGroup AB (org-nummer 557566-6789) behöver försäkringsnummer för vår nya anställde, Erik Lind. Hans försäkringsnummer är F889900112.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "FinanceGroup AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557566-6789"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Erik Lind"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F889900112"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "text": "Hej, jag heter Maria Lind och vill öppna ett sparkonto med PlusGiro 012-3456. Mitt skatteregistreringsnummer är 9900112233 från Sverige.",
+      "to_mask": [
+        {
+          "label": "[NAMN]",
+          "value": "Maria Lind"
+        },
+        {
+          "label": "[PLUSGIRO]",
+          "value": "012-3456"
+        },
+        {
+          "label": "[SKATTEREGISTRERINGSNR]",
+          "value": "9900112233"
+        },
+        {
+          "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+          "value": "Sverige"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "text": "Vi på CorporateSolutions AB (org-nummer 557577-0123) behöver uppdatera kundens försäkringsnummer F667788990 för vår klient, Anna Lind.",
+      "to_mask": [
+        {
+          "label": "[ARBETSPLATS]",
+          "value": "CorporateSolutions AB"
+        },
+        {
+          "label": "[ORG-NUMMER]",
+          "value": "557577-0123"
+        },
+        {
+          "label": "[FÖRSÄKRINGSNUMMER]",
+          "value": "F667788990"
+        },
+        {
+          "label": "[NAMN]",
+          "value": "Anna Lind"
+        }
+      ]
+    },
+    {
+        "id": 231,
+        "text": "Hej, jag behöver ändra min inbetalningsreferens till 987654321 för min pensionsinbetalning. Min utdelningsadress är Drottninggatan 50, box 12 i Stockholm. Mitt avtalsområde är privat och avtalsnumret är AVT2023001. Min pensionsålder är 65 och min kontaktperson på förmedlingsföretaget är Anna Bergström. Vänligen bekräfta att ändringarna är gjorda.",
+        "to_mask": [
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "987654321"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Drottninggatan 50, box 12 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023001"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Anna Bergström"
+          }
+        ]
+      },
+      {
+        "id": 232,
+        "text": "Vi på CorporateFinance AB (org-nummer 557600-4567) vill uppdatera våra avtalsområden för kundernas pensionskonton. Vårt styrelsens säte är Stockholm. Vänligen skicka detaljerad information om processen.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "CorporateFinance AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557600-4567"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "kundernas pensionskonton"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 233,
+        "text": "Hej, jag heter Lars Pettersson och vill göra en inbetalning med referens OCR-nummer 1234567890 till mitt sparkonto. Min utdelningsadress är Östra Hamngatan 20, box 5. Vänligen bekräfta att inbetalningen har mottagits.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Lars Pettersson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1234567890"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Östra Hamngatan 20, box 5"
+          }
+        ]
+      },
+      {
+        "id": 234,
+        "text": "Vi på BusinessSolutions AB (org-nummer 557611-7890) behöver ange avtalsområdet för vårt nya företagskonto. Vårt avtalsnummer är AVT2023002 och styrelsens säte är Stockholm. Kontakta oss på corporate@businesssolutions.se för vidare information.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "BusinessSolutions AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557611-7890"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "vårt nya företagskonto"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023002"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "corporate@businesssolutions.se"
+          }
+        ]
+      },
+      {
+        "id": 235,
+        "text": "Hej, jag heter Maria Andersson och vill uppdatera min pensionsålder kontaktperson till Erik Svensson. Min inbetalningsreferens är OCR-nummer 1122334455. Min utdelningsadress är Kungsgatan 10, box 3 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Maria Andersson"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Erik Svensson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1122334455"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Kungsgatan 10, box 3 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 236,
+        "text": "Vi på FinanceGroup AB (org-nummer 557622-0123) behöver ange avtalsområdet för våra kunders pensionsplaner. Vårt avtalsnummer är AVT2023003 och styrelsens säte är Stockholm. Kontakta oss på info@financegroup.se för vidare instruktioner.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinanceGroup AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557622-0123"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "kunders pensionsplaner"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023003"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "info@financegroup.se"
+          }
+        ]
+      },
+      {
+        "id": 237,
+        "text": "Hej, jag heter Johan Lind och vill göra en inbetalning med referens OCR-nummer 5566778899 till mitt pensionskonto. Min utdelningsadress är Sveavägen 30, box 2 i Stockholm. Ange avtalsområde är privat.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Johan Lind"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "5566778899"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Sveavägen 30, box 2 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          }
+        ]
+      },
+      {
+        "id": 238,
+        "text": "Vi på CorporateSolutions AB (org-nummer 557633-3456) behöver uppdatera avtalsnummer för våra företagskonton. Vårt nya avtalsnummer är AVT2023004 och styrelsens säte är Stockholm. Vänligen skicka bekräftelse till corporate@corporatesolutions.se.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "CorporateSolutions AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557633-3456"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023004"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "corporate@corporatesolutions.se"
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "text": "Hej, jag heter Lisa Karlsson och vill ändra min pensionsålder kontaktperson till Mikael Johansson. Min inbetalningsreferens är OCR-nr 6677889900. Min utdelningsadress är Hamngatan 25, box 4 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Lisa Karlsson"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Mikael Johansson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "6677889900"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Hamngatan 25, box 4 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 240,
+        "text": "Vi på FinancePartners AB (org-nummer 557644-6789) behöver ange avtalsområdet för våra företagskonton. Vårt avtalsnummer är AVT2023005 och styrelsens säte är Stockholm. Kontakta oss på support@financepartners.se för vidare detaljer.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinancePartners AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557644-6789"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023005"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "support@financepartners.se"
+          }
+        ]
+      },
+      {
+        "id": 241,
+        "text": "Hej, jag heter Anders Nilsson och vill göra en inbetalning med referens OCR-nr 7788990011 till mitt sparkonto. Min utdelningsadress är Storgatan 40, box 6 i Stockholm. Ange avtalsområde är privat.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Anders Nilsson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "7788990011"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Storgatan 40, box 6 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          }
+        ]
+      },
+      {
+        "id": 242,
+        "text": "Vi på BusinessFinance AB (org-nummer 557655-0123) vill uppdatera våra avtalsområden för företagskonton. Vårt nya avtalsnummer är AVT2023006 och styrelsens säte är Stockholm. Vänligen bekräfta uppdateringen till finance@businessfinance.se.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "BusinessFinance AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557655-0123"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023006"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "finance@businessfinance.se"
+          }
+        ]
+      },
+      {
+        "id": 243,
+        "text": "Hej, jag heter Emma Svensson och vill ändra min pensionsålder kontaktperson till Johan Berg. Min inbetalningsreferens är OCR-nr 8899001122. Min utdelningsadress är Västerlånggatan 15, box 7 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Emma Svensson"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Johan Berg"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "8899001122"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Västerlånggatan 15, box 7 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 244,
+        "text": "Vi på FinanceGroup AB (org-nummer 557666-3456) behöver ange avtalsområdet för våra nya företagskonton. Vårt avtalsnummer är AVT2023007 och styrelsens säte är Stockholm. Kontakta oss på contact@financegroup.se för vidare information.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinanceGroup AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557666-3456"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "nya företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023007"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "contact@financegroup.se"
+          }
+        ]
+      },
+      {
+        "id": 245,
+        "text": "Hej, jag heter Karin Larsson och vill göra en inbetalning med referens OCR-nr 9900112233 till mitt pensionskonto. Min utdelningsadress är Drottninggatan 60, box 8 i Stockholm. Ange avtalsområde är privat.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Karin Larsson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "9900112233"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Drottninggatan 60, box 8 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          }
+        ]
+      },
+      {
+        "id": 246,
+        "text": "Vi på BusinessSolutions AB (org-nummer 557677-6789) behöver uppdatera våra avtalsområden för företagskonton. Vårt nya avtalsnummer är AVT2023008 och styrelsens säte är Stockholm. Vänligen bekräfta uppdateringen till support@businesssolutions.se.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "BusinessSolutions AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557677-6789"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023008"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "support@businesssolutions.se"
+          }
+        ]
+      },
+      {
+        "id": 247,
+        "text": "Hej, jag heter Peter Nilsson och vill ändra min pensionsålder kontaktperson till Anna Berg. Min inbetalningsreferens är OCR-nr 1011121314. Min utdelningsadress är Storgatan 25, box 9 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Peter Nilsson"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Anna Berg"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1011121314"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Storgatan 25, box 9 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 248,
+        "text": "Vi på FinancePartners AB (org-nummer 557688-0123) behöver ange avtalsområdet för våra företagskonton. Vårt avtalsnummer är AVT2023009 och styrelsens säte är Stockholm. Kontakta oss på admin@financepartners.se för vidare information.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinancePartners AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557688-0123"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023009"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "admin@financepartners.se"
+          }
+        ]
+      },
+      {
+        "id": 249,
+        "text": "Hej, jag heter Sara Lind och vill göra en inbetalning med referens OCR-nr 1213141516 till mitt sparkonto. Min utdelningsadress är Hamngatan 35, box 10 i Stockholm. Ange avtalsområde är privat.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Sara Lind"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1213141516"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Hamngatan 35, box 10 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          }
+        ]
+      },
+      {
+        "id": 250,
+        "text": "Vi på BusinessFinance AB (org-nummer 557699-3456) behöver uppdatera våra avtalsområden för företagskonton. Vårt nya avtalsnummer är AVT2023010 och styrelsens säte är Stockholm. Vänligen bekräfta uppdateringen till info@businessfinance.ab.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "BusinessFinance AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557699-3456"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023010"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "info@businessfinance.ab"
+          }
+        ]
+      },
+      {
+        "id": 251,
+        "text": "Hej, jag heter Tomas Eriksson och vill ändra min pensionsålder kontaktperson till Maria Lind. Min inbetalningsreferens är OCR-nr 1314151617. Min utdelningsadress är Kungsgatan 40, box 11 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Tomas Eriksson"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Maria Lind"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1314151617"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Kungsgatan 40, box 11 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 252,
+        "text": "Vi på FinanceGroup AB (org-nummer 557700-6789) behöver ange avtalsområdet för våra nya företagskonton. Vårt avtalsnummer är AVT2023011 och styrelsens säte är Stockholm. Kontakta oss på support@financegroup.se för vidare information.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinanceGroup AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557700-6789"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "nya företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023011"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "support@financegroup.se"
+          }
+        ]
+      },
+      {
+        "id": 253,
+        "text": "Hej, jag heter Anna Lind och vill göra en inbetalning med referens OCR-nr 1415161718 till mitt pensionskonto. Min utdelningsadress är Västerlånggatan 20, box 12 i Stockholm. Ange avtalsområde är privat.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Anna Lind"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1415161718"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Västerlånggatan 20, box 12 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          }
+        ]
+      },
+      {
+        "id": 254,
+        "text": "Vi på BusinessSolutions AB (org-nummer 557711-0123) behöver uppdatera våra avtalsområden för företagskonton. Vårt nya avtalsnummer är AVT2023012 och styrelsens säte är Stockholm. Vänligen bekräfta uppdateringen till contact@businesssolutions.se.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "BusinessSolutions AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557711-0123"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023012"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "contact@businesssolutions.se"
+          }
+        ]
+      },
+      {
+        "id": 255,
+        "text": "Hej, jag heter Peter Berg och vill ändra min pensionsålder kontaktperson till Lars Svensson. Min inbetalningsreferens är OCR-nr 1516171819. Min utdelningsadress är Sveavägen 50, box 13 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Peter Berg"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Lars Svensson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1516171819"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Sveavägen 50, box 13 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 256,
+        "text": "Vi på FinancePartners AB (org-nummer 557722-3456) behöver ange avtalsområdet för våra företagskonton. Vårt avtalsnummer är AVT2023013 och styrelsens säte är Stockholm. Kontakta oss på inquiries@financepartners.se för vidare information.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinancePartners AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557722-3456"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023013"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "inquiries@financepartners.se"
+          }
+        ]
+      },
+      {
+        "id": 257,
+        "text": "Hej, jag heter Linda Svensson och vill göra en inbetalning med referens OCR-nr 1617181920 till mitt sparkonto. Min utdelningsadress är Hamngatan 45, box 14 i Stockholm. Ange avtalsområde är privat.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Linda Svensson"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1617181920"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Hamngatan 45, box 14 i Stockholm"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "privat"
+          }
+        ]
+      },
+      {
+        "id": 258,
+        "text": "Vi på BusinessFinance AB (org-nummer 557733-6789) behöver uppdatera våra avtalsområden för företagskonton. Vårt nya avtalsnummer är AVT2023014 och styrelsens säte är Stockholm. Vänligen bekräfta uppdateringen till support@businessfinance.ab.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "BusinessFinance AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557733-6789"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023014"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "support@businessfinance.ab"
+          }
+        ]
+      },
+      {
+        "id": 259,
+        "text": "Hej, jag heter Martin Eriksson och vill ändra min pensionsålder kontaktperson till Sara Berg. Min inbetalningsreferens är OCR-nr 1718192021. Min utdelningsadress är Drottninggatan 55, box 15 i Stockholm.",
+        "to_mask": [
+          {
+            "label": "[NAMN]",
+            "value": "Martin Eriksson"
+          },
+          {
+            "label": "[PENSIONSÅLDER_KONTAKTPERSON]",
+            "value": "Sara Berg"
+          },
+          {
+            "label": "[INBETALNINGSREFERENS]",
+            "value": "1718192021"
+          },
+          {
+            "label": "[UTDELNINGSADRESS]",
+            "value": "Drottninggatan 55, box 15 i Stockholm"
+          }
+        ]
+      },
+      {
+        "id": 260,
+        "text": "Vi på FinanceGroup AB (org-nummer 557744-0123) behöver ange avtalsområdet för våra nya företagskonton. Vårt avtalsnummer är AVT2023015 och styrelsens säte är Stockholm. Kontakta oss på contact@financegroup.se för vidare information.",
+        "to_mask": [
+          {
+            "label": "[ARBETSPLATS]",
+            "value": "FinanceGroup AB"
+          },
+          {
+            "label": "[ORG-NUMMER]",
+            "value": "557744-0123"
+          },
+          {
+            "label": "[AVTALSSOMRÅDE]",
+            "value": "nya företagskonton"
+          },
+          {
+            "label": "[AVTALSNUMMER]",
+            "value": "AVT2023015"
+          },
+          {
+            "label": "[STYRELSENS_SÄTE]",
+            "value": "Stockholm"
+          },
+          {
+            "label": "[E-POST]",
+            "value": "contact@financegroup.se"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "text": "Hej, jag heter Anna Sjöberg och behöver uppdatera mitt skatteregistreringsnummer. Mitt nya nummer är 568631962 och det tilldelades av Sverige. Mitt företag, DataSoft Solutions (org-nummer 551157-7110), behöver också uppdatera detta.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Anna Sjöberg"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "568631962"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Sverige"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "DataSoft Solutions"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "551157-7110"
+            }
+        ]
+    },
+    {
+        "id": 262,
+        "text": "Vi på FinTech Systems (org-nummer 554258-9251) vill öppna ett företagskonto och behöver ange vårt skatteregistreringsnummer 641339068 från Finland. Vänligen guida oss genom processen.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Johan Lindgren"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "641339068"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Finland"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "FinTech Systems"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "554258-9251"
+            }
+        ]
+    },
+    {
+        "id": 263,
+        "text": "Hej, jag heter Johan Lindgren och behöver uppdatera mitt skatteregistreringsnummer. Mitt nya nummer är 112448355 och det tilldelades av Finland. Mitt företag, AlphaTrade Group (org-nummer 555169-2097), behöver också uppdatera detta.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Johan Lindgren"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "112448355"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Finland"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "AlphaTrade Group"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "555169-2097"
+            }
+        ]
+    },
+    {
+        "id": 264,
+        "text": "Hej, jag heter Anna Sjöberg och behöver uppdatera mitt skatteregistreringsnummer. Mitt nya nummer är 495376799 och det tilldelades av Tyskland. Mitt företag, Nordic Consulting (org-nummer 555182-8580), behöver också uppdatera detta.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Anna Sjöberg"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "495376799"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Tyskland"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "Nordic Consulting"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "555182-8580"
+            }
+        ]
+    },
+    {
+        "id": 265,
+        "text": "Jag behöver hjälp med att registrera vårt företags skatteregistreringsnummer 687297060. Företaget heter SmartBanking Inc. och har organisationsnummer 551785-7497. Nummer tilldelades av Norge.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Mikael Östlund"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "687297060"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Norge"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "SmartBanking Inc."
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "551785-7497"
+            }
+        ]
+    },
+    {
+        "id": 266,
+        "text": "Jag behöver hjälp med att registrera vårt företags skatteregistreringsnummer 745282051. Företaget heter DataSoft Solutions och har organisationsnummer 556102-9855. Nummer tilldelades av Danmark.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Lars Eriksson"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "745282051"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Danmark"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "DataSoft Solutions"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "556102-9855"
+            }
+        ]
+    },
+    {
+        "id": 267,
+        "text": "Jag behöver hjälp med att registrera vårt företags skatteregistreringsnummer 558837178. Företaget heter DataSoft Solutions och har organisationsnummer 559271-8364. Nummer tilldelades av Norge.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Sara Holmqvist"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "558837178"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Norge"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "DataSoft Solutions"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "559271-8364"
+            }
+        ]
+    },
+    {
+        "id": 268,
+        "text": "Hej, jag heter Sara Holmqvist och behöver uppdatera mitt skatteregistreringsnummer. Mitt nya nummer är 156443889 och det tilldelades av Tyskland. Mitt företag, DataSoft Solutions (org-nummer 551687-8594), behöver också uppdatera detta.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Sara Holmqvist"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "156443889"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Tyskland"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "DataSoft Solutions"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "551687-8594"
+            }
+        ]
+    },
+    {
+        "id": 269,
+        "text": "Vi på AlphaTrade Group (org-nummer 559923-8469) vill öppna ett företagskonto och behöver ange vårt skatteregistreringsnummer 691015809 från Sverige. Vänligen guida oss genom processen.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Lars Eriksson"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "691015809"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Sverige"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "AlphaTrade Group"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "559923-8469"
+            }
+        ]
+    },
+    {
+        "id": 270,
+        "text": "Hej, jag heter Johan Lindgren och behöver uppdatera mitt skatteregistreringsnummer. Mitt nya nummer är 203528643 och det tilldelades av Norge. Mitt företag, FinTech Systems (org-nummer 557261-6314), behöver också uppdatera detta.",
+        "to_mask": [
+            {
+                "label": "[NAMN]",
+                "value": "Johan Lindgren"
+            },
+            {
+                "label": "[SKATTEREGISTRERINGSNR]",
+                "value": "203528643"
+            },
+            {
+                "label": "[LAND_TILLDELAT_SKATTEREGISTRERINGSNR]",
+                "value": "Norge"
+            },
+            {
+                "label": "[ARBETSPLATS]",
+                "value": "FinTech Systems"
+            },
+            {
+                "label": "[ORG-NUMMER]",
+                "value": "557261-6314"
+            }
+        ]
+    },
+    {
+        "id": 271,
+        "text": "Vilket kontonummer har själva Investeringssparkontot?",
+        "to_mask": []
+      },
+      {
+        "id": 272,
+        "text": "Vad används det kopplade likvidkontot till inom ett Investeringssparkonto?",
+        "to_mask": []
+      },
+      {
+        "id": 273,
+        "text": "Har varje fondkonto i ett ISK ett unikt kontonummer?",
+        "to_mask": []
+      },
+      {
+        "id": 274,
+        "text": "Vilka typer av värdepapper kan du investera i genom ett Investeringssparkonto?",
+        "to_mask": []
+      },
+      {
+        "id": 275,
+        "text": "Behöver du deklarera vinster eller förluster när du investerar via ett ISK?",
+        "to_mask": []
+      },
+      {
+        "id": 276,
+        "text": "Hur hanteras köp och försäljning inom det kopplade likvidkontot på ett ISK?",
+        "to_mask": []
+      },
+      {
+        "id": 277,
+        "text": "Vad är fördelarna med att ha ett Investeringssparkonto jämfört med andra investeringskonton?",
+        "to_mask": []
+      },
+      {
+        "id": 278,
+        "text": "Kan du investera i aktier genom ett Investeringssparkonto utan att behöva deklarera varje gång?",
+        "to_mask": []
+      },
+      {
+        "id": 279,
+        "text": "Vilka olika kontonummer finns kopplade till ett Investeringssparkonto?",
+        "to_mask": []
+      },
+      {
+        "id": 280,
+        "text": "På vilket sätt underlättar ett Investeringssparkonto deklarationen av dina investeringar?",
+        "to_mask": []
+      },
+      {
+        "id": 281,
+        "text": "Vad fokuserar företaget på när det gäller att optimera fondvalet inom befintliga försäkringar?",
+        "to_mask": []
+      },
+      {
+        "id": 282,
+        "text": "Varför optimerar ni fondvalet inom de flesta försäkringar?",
+        "to_mask": []
+      },
+      {
+        "id": 283,
+        "text": "Vilken typ av rådgivning erbjuder ni för kunder med kollektivavtalad tjänstepension?",
+        "to_mask": []
+      },
+      {
+        "id": 284,
+        "text": "Hur hjälper ni kunder att välja försäkringsbolag och försäkringstyper för framtida inbetalningar?",
+        "to_mask": []
+      },
+      {
+        "id": 285,
+        "text": "Vad gör ni om det finns bättre försäkringsalternativ än de kunderna redan har?",
+        "to_mask": []
+      },
+      {
+        "id": 286,
+        "text": "Hur identifierar ni vilka försäkringsalternativ som passar kunder bättre än deras nuvarande val?",
+        "to_mask": []
+      },
+      {
+        "id": 287,
+        "text": "Vilka fördelar finns det med att optimera fondvalet inom befintliga försäkringar?",
+        "to_mask": []
+      },
+      {
+        "id": 288,
+        "text": "På vilket sätt kan era råd påverka kundernas framtida pensionsinbetalningar?",
+        "to_mask": []
+      },
+      {
+        "id": 289,
+        "text": "Hur säkerställer ni att de optimerade fondvalen inom försäkringar är bäst anpassade för kundernas behov?",
+        "to_mask": []
+      },
+      {
+        "id": 290,
+        "text": "Vilken erfarenhet har ni av att optimera fondval inom olika typer av försäkringar?",
+        "to_mask": []
+      }
+  ]
+  
