@@ -1,0 +1,42 @@
+{
+  "LOCATION": [
+    "STREETADDRESS",
+    "SECONDARYADDRESS",
+    "BUILDINGNUMBER",
+    "STREET",
+    "CITY",
+    "STATE",
+    "COUNTY",
+    "NEARBYGPSCOORDINATE",
+    "ZIPCODE"
+  ],
+  "GENDER": [
+    "SEXTYPE",
+    "SEX"
+  ],
+  "NAME": [
+    "FULLNAME",
+    "FIRSTNAME",
+    "LASTNAME"
+  ],
+  "IP": [
+    "IPV4",
+    "IP",
+    "IPV6",
+    "MAC"
+  ],
+  "JOB": [
+    "JOBDESCRIPTOR",
+    "JOBTYPE",
+    "JOBTITLE",
+    "JOBAREA"
+  ],
+  "MASKED_NUMBER": [
+    "NUMBER",
+    "AMOUNT",
+    "ACCOUNTNUMBER",
+    "CREDITCARDCVV",
+    "PIN",
+    "BUILDINGNUMBER"
+  ]
+}
