@@ -14,8 +14,11 @@
     "SEXTYPE",
     "SEX"
   ],
+  "USERNAME":[
+    "DISPLAYNAME"
+  ],
   "NAME": [
-    "FULLNAME",
+    "NAME",
     "FIRSTNAME",
     "LASTNAME"
   ],
@@ -31,7 +34,7 @@
     "JOBTITLE",
     "JOBAREA"
   ],
-  "MASKED_NUMBER": [
+  "MASKEDNUMBER": [
     "NUMBER",
     "AMOUNT",
     "ACCOUNTNUMBER",

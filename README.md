@@ -5,7 +5,7 @@ Location -> STREETADDRESS, SECONDARYADDRESS, BUILDINGNUMBER, STREET, CITY,STATE,
 
 GENDER = SEXTYPE, SEX
 
-NAME = FULLNAME, FIRSTNAME, LASTNAME, CREDITCARDISSUER
+NAME = FULLNAME, FIRSTNAME, LASTNAME
 
 IP = IPV4, IP, IPV6, MAC
 
@@ -18,7 +18,7 @@ TODO:
 REMOVE: ORDINALDIRECTION, ACCOUNTNAME, CURRENCYSYMBOL, CURRENCYNAME, CURRENCY, CURRENCYCODE, CREDITCARDISSUER, ETHEREUMADDRESS, LITECOINADDRESS, BITCOINADDRESS
 
 #### preprossesing
-2. Scale down entities, ~~get mask enteties from tokens instead~~
+2. ~~Scale down entities~~, ~~get mask enteties from tokens instead~~
 3. Dataprepping, normalization, stemming or lemming -> Tokenization
 4. Research Sentence splitting
 
