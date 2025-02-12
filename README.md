@@ -6,13 +6,17 @@ Location -> job area
 
 TODO: 
 
-7: data vizualisation: Language Detection (språk)
-1: AMAZON comprehend (morris intresserad)
+#### preprossesing
+2. Scale down entities, ~~get mask enteties from tokens instead~~
+3. Dataprepping, normalization, stemming, lemming -> Tokenization
+4. Research Sentence splitting
 
-preprossesing
-2: Scale down entities, get mask enteties from tokens instead
-3: Dataprepping, normalization, stemming, lemming -> Tokenization
-4: Research Sentence splitting
 
-5: Eval model
-6: Apply regex (test and eval it)
+#### EVAL
+5. Eval model
+6. Apply regex (test and eval it)
+
+#### Extra
+7. ~~ata vizualisation: Language Detection (språk)~~
+
+1. AMAZON comprehend (morris intresserad)
