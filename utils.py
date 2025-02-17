@@ -63,3 +63,14 @@ def get_template_tokens(df):
     # Clean the unique_matches set by removing the trailing underscore and everything
     cleaned_matches = {re.sub(r'_[^_]+$', '', token) for token in unique_matches}
     return cleaned_matches, unique_matches
+
+def count_labeled_items(df):
+	"""
+	Counts the total number of labeled items in the 'Template' column of a DataFrame.
+	"""
+	total_count = 0
+	for text in df['Template']:
+		# Find all occurrences of labels enclosed in square brackets
+		labels = re.findall(r'\[.*?\]', text)
+		total_count += len(labels)
+	return total_count
