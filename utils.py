@@ -5,7 +5,7 @@ import pandas as pd
 
 
 class dataset:
-    def __init__(self, name=None, dataset=None,size=None, nlp=None):
+    def __init__(self, name=None, dataset=None, size=None, nlp=None, training_data=None, test_data=None):
         self.name = name if name is not None else ""
         self.size = size
         self.dataset = dataset if dataset is not None else pd.DataFrame()
@@ -18,9 +18,11 @@ class dataset:
         self.NER_accuracy = 0.0
         self.token_recall = 0.0
         self.nlp = nlp
+        self.training_data = training_data if training_data is not None else pd.DataFrame()
+        self.test_data = test_data if test_data is not None else pd.DataFrame()
 
     def __repr__(self):
-        return (f"dataset(name={self.name}, " # TODO: Rename to size and add a new name field with version name.
+        return (f"dataset(name={self.name}, "
                 f"size={len(self.dataset)}, "
                 f"dataset={self.dataset}, "
                 f"failed_labels={self.failed_labels}, "
@@ -31,12 +33,10 @@ class dataset:
                 f"precision={self.precision:.2%}, "
                 f"NER_accuracy={self.NER_accuracy:.2%}, "
                 f"token_recall={self.token_recall:.2%}, "
-                f"nlp={self.nlp})")
-
-def get_test_set(df, test_pct, random_state=42):
-    # Sample the remaining fraction (i.e. non-test) and return the test set
-    train = df.sample(frac=1 - test_pct, random_state=random_state)
-    return df.drop(train.index)
+                f"nlp={self.nlp}), "
+                f"training_data={len(self.training_data)}, "
+                f"test_data={len(self.test_data)}"
+                )
 
 # Solution 2 to get the unique values just to check that everything is correct with the values in template
 def get_token_tokens(df):
