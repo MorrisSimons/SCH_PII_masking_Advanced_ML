@@ -10,7 +10,7 @@ A comprehensive machine learning project for detecting and masking Personally Id
 
 ## Important notes
 - We tested on syntetic data only but Amazon might be better on real data with syntax errors etc.
-
+- This repository still needs some more cleaning
 
 
 ## Performance Comparison
